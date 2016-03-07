@@ -1,0 +1,131 @@
+ <!--{template common/header}-->
+<style id="diy_style" type="text/css"></style>
+<!--[diy=listloopbottom]--><div id="listloopbottom" class="area"></div><!--[/diy]-->
+<div class="deanwp top15">
+    <div class="deanwpl">
+        <div class="deanhdp deanshadow deanw714 deanborder deanfff">
+            <div class="deanhdpc">
+                <div class="deanhdpbig"><!--[diy=diydeanzdy]--><div id="diydeanzdy" class="area"></div><!--[/diy]--></div>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <div class="deanpiclist top15">
+            <ul><!--[diy=deanpiclist]--><div id="deanpiclist" class="area"></div><!--[/diy]--></ul>
+        </div>
+        <script type="text/javascript">
+        	jq(".deanpiclist ul li").each(function(s){
+				jq(".deanpiclicl").hover(
+					function(){
+						jq(this).children(".deanhover").show();
+					},
+					function(){
+						jq(this).children(".deanhover").hide();
+						})
+				})
+        </script>
+        <div class="clear"></div>
+        <div class="deanforumhot deanshadow deanw714 deanborder deanfff top15">
+            <div class="deanforumhotc">
+                <div class="deanforumtitle">
+                    <h2>社区热帖</h2>
+                    <ul><!--[diy=deanforumtitle]--><div id="deanforumtitle" class="area"></div><!--[/diy]--> 
+                        <div class="clear"></div>
+                    </ul>
+                    <div class="clear"></div>
+                </div>
+                <ul class="deanforumhotlists deanxz">
+                	<!--[diy=deanforumhotlists]--><div id="deanforumhotlists" class="area"></div><!--[/diy]-->
+                </ul>
+                <script type="text/javascript">
+                	jq(".deanforumhotlists li:last").css("border-bottom","0");
+                </script>
+            </div>
+        </div>
+    </div>
+    <div class="deanwpr">
+        <div class="deanwprc deanshadow deanborder deanfff">
+            <div class="deanp14">
+                <div class="deanqd"><a id="deanpost" onclick="showWindow('nav', this.href, 'get', 0)" href="forum.php?mod=misc&amp;action=nav">发布主题</a></div>
+                <div class="clear"></div>
+                <div class="deanforumhotr top15">
+                    <h2>热门版块</h2>
+                    <div class="clear"></div>
+                    <ul><!--[diy=deanforumhotr]--><div id="deanforumhotr" class="area"></div><!--[/diy]-->
+                        <div class="clear"></div>
+                    </ul>
+                </div>
+                <script type="text/javascript">
+                    jq(".deanforumhotr ul li:odd").css("border-left","1px solid #ddd");
+                </script>
+                <div class="clear"></div>
+                <div class="deanactive top25">
+                    <h2>最新资讯</h2>
+                    <div class="clear"></div>
+                    <ul><!--[diy=deanactive]--><div id="deanactive" class="area"></div><!--[/diy]--></ul>
+                </div>
+                <div class="clear"></div>
+                <div class="deantabs top25">
+                    <ul class="deantabname">
+                        <li class="cur">企易贷</li>
+                        <li>车易贷</li>
+                        <div class="clear"></div>
+                    </ul>
+                    <div class="clear"></div>
+                    <ul class="deantabc top15">
+                        <li style="display:block;"><!--[diy=deantabc1]--><div id="deantabc1" class="area"></div><!--[/diy]--></li>
+                        <li><!--[diy=deantabc2]--><div id="deantabc2" class="area"></div><!--[/diy]--></li>
+                    </ul>
+                    
+                </div>
+                
+                <div class="clear"></div>
+                <div class="deanrank top25">
+                    <h2>排行榜</h2>
+                    <div class="clear"></div>
+                    <ul class="deanrankc"><!--[diy=deanrank]--><div id="deanrank" class="area"></div><!--[/diy]--></ul>
+                </div>
+                <div class="clear"></div>
+                <div class="deannewdp top25">
+                    <h2>随手拍</h2>
+                    <div class="clear"></div>
+                    <div class="deannewdpc"><!--[diy=deannewdpc]--><div id="deannewdpc" class="area"></div><!--[/diy]--></div>
+                </div>
+                <div class="clear"></div>
+                <div class="deannewzd top25">
+                    <h2>新手学院</h2>
+                    <div class="clear"></div>
+                    <div class="deannewzdc"><!--[diy=deannewzdc]--><div id="deannewzdc" class="area"></div><!--[/diy]--></div>
+                    <div class="clear"></div>
+                    <ul class="top15"><!--[diy=deannewzdc1]--><div id="deannewzdc1" class="area"></div><!--[/diy]--></ul>
+                </div>
+				<div class="clear"></div>
+                
+                <div class="deantabs top25">
+                    <ul class="deantabname">
+                        <li class="cur">社区微博</li>
+                        <li>官方微信</li>
+                        <div class="clear"></div>
+                    </ul>
+                    <div class="clear"></div>
+                    <ul class="deantabc top15">
+                        <li style="display:block;"><!--[diy=deantabc3]--><div id="deantabc3" class="area"></div><!--[/diy]--></li>
+                        <li style="text-align:center;"><!--[diy=deantabc4]--><div id="deantabc4" class="area"></div><!--[/diy]--></li>
+                    </ul>
+                </div>
+            
+                <script type="text/javascript">
+                    jq(".deantabname li").each(function(s){
+                        jq(this).hover(function(){
+                            jq(this).addClass("cur").siblings().removeClass("cur");
+                            jq(".deantabc li").eq(s).show().siblings().hide();
+                        })
+                    })
+                </script>
+            </div>
+            
+        </div>
+    </div>
+    <div class="clear"></div>
+ </div>
+<script src="misc.php?mod=diyhelp&action=get&type=index&diy=yes&r={echo random(4)}" type="text/javascript"></script>
+<!--{template common/footer}-->

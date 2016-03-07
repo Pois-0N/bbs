@@ -1,0 +1,20 @@
+<!--{template common/header}-->
+
+<!--{if !empty($_GET['infloat']) && !isset($_GET['frommessage'])}-->
+<h3 class="flb">
+			<em id="returnmessage_$loginhash">
+				<!--{if !empty($_GET['infloat'])}--><!--{if !empty($_GET['guestmessage'])}-->{lang login_guestmessage}<!--{elseif $auth}-->{lang profile_renew}<!--{else}-->{lang login_member}<!--{/if}--><!--{/if}-->
+			</em>
+			<span><a href="javascript:;" class="flbc" onclick="hideWindow('$_GET[handlekey]', 0, 1);" title="{lang close}">{lang close}</a></span>
+</h3>
+<!--{/if}-->
+        
+<div style="width:340px;padding:{if !empty($_GET['infloat']) && !isset($_GET['frommessage'])}20px{else}0px{/if} 100px;{if !empty($_GET['infloat']) && !isset($_GET['frommessage'])}height:40px;{/if}">
+<span class="btncns" style="width:140px;height:41px;background-color:#00a7e3;display:block;float:left;border-radius:5px;line-height:41px;color:#fff;font-size:16px;text-align:center;">
+<a href="https://www.ejiandai.com/login?redirectURL=%2Faccount%2Fforum" style="color:#fff;width: 100%;display: inline-block;height: 100%;">µÇÂ¼</a></span>
+<span style="width:140px;height:41px;background-color:#f58232;display:block;float:right;border-radius:5px;line-height:41px;color:#fff;font-size:16px;text-align:center;">
+<a href="https://www.ejiandai.com/register" style="color:#fff;width: 100%;display: inline-block;height: 100%;">Ãâ·Ñ×¢²á</a></span>
+</div>
+<div style="clear:both;"></div>
+
+<!--{template common/footer}-->

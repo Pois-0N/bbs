@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Addon MD5]]></item>
+	<item id="ID"><![CDATA[newry_duitang.template]]></item>
+	<item id="RevisionID"><![CDATA[39351]]></item>
+	<item id="SN"><![CDATA[20150731111EFVdO8fo9]]></item>
+	<item id="RevisionDateline"><![CDATA[1438250401]]></item>
+	<item id="Data">
+		<item id="/preview.jpg"><![CDATA[70b655c4cf0a85f183fcf12a8500e6d0]]></item>
+		<item id="/preview_large.jpg"><![CDATA[f9ee6f6804dcaf387b0edda0a2b15ab7]]></item>
+		<item id="/home/space_header.htm"><![CDATA[0a03dcc113cfc02301be126296e705f9]]></item>
+		<item id="/common/extend_common.css"><![CDATA[6e81097ce709b6bf454367635186c794]]></item>
+		<item id="/common/extend_module.css"><![CDATA[81051bcc2cf1bedf378224b0a93e2877]]></item>
+		<item id="/common/header.htm"><![CDATA[52a66b7704bc68af00aeecadc27031bf]]></item>
+		<item id="/common/footer.htm"><![CDATA[e72ae0066b095dd449aed907a20090dd]]></item>
+		<item id="/common/header_common.htm"><![CDATA[71c0afdf7e6c2dc737e74a1b06d547a7]]></item>
+		<item id="/common/css_space.css"><![CDATA[a53593591fac8d43fd0f86b9f28eaef8]]></item>
+		<item id="/common/pubsearchform.htm"><![CDATA[4d5c0e141ba4e48002b92ab463a450bb]]></item>
+		<item id="/discuz_style_newry_duitang.xml"><![CDATA[53dda7166ddfda4f4ffc58a392f18e72]]></item>
+		<item id="/forum/viewthread.htm"><![CDATA[ce4e1cac683a1c8f378ef5c95aa150b5]]></item>
+		<item id="/forum/forumdisplay_list.htm"><![CDATA[916998a284a2aab500d24f49948a7e30]]></item>
+		<item id="/forum/forumdisplay_fastpost.htm"><![CDATA[26c02f35a910e888f48bfcd7db6d8cb0]]></item>
+		<item id="/forum/discuz.htm"><![CDATA[50d8bc7fcaf0432ae2565d5a086f315f]]></item>
+		<item id="/forum/forumdisplay.htm"><![CDATA[af51661b798dd388f42d939e5466d6df]]></item>
+		<item id="/style/css/newry.css"><![CDATA[9d3f06f2c76282efd28a145f78391454]]></item>
+		<item id="/style/img/pagination.png"><![CDATA[d5a0914aed3b2591f6acbff306b2c061]]></item>
+		<item id="/style/img/fico_a.png"><![CDATA[c12b856c633ab1a9be452fbe0a8878ed]]></item>
+		<item id="/style/img/cf_xy.png"><![CDATA[7de7c0fd45e1e8b435b9de13c1a5f6b3]]></item>
+		<item id="/style/img/ico_love.png"><![CDATA[33c765def7bb8fb950aafe6e03852c56]]></item>
+		<item id="/style/img/logo.png"><![CDATA[872d04175a8184e5772948bb4feaec77]]></item>
+		<item id="/style/img/m3ad.jpg"><![CDATA[b6bf9da981c4ef28c1fd3b53c95ab006]]></item>
+		<item id="/style/img/hot_top.jpg"><![CDATA[50fb47a12cf8e210c6bddbed8ef6d3ba]]></item>
+		<item id="/style/img/wei.png"><![CDATA[6991a550559676806b8855a59ce0dcba]]></item>
+		<item id="/style/img/bbs_bg.png"><![CDATA[2dd2d29880fb6a378aac8bcfa67018da]]></item>
+		<item id="/style/img/search.png"><![CDATA[c989a9096ea6094587f55dfb7254bb46]]></item>
+		<item id="/style/img/ico.png"><![CDATA[ac8a37dcd2506705efc60a15957758b1]]></item>
+		<item id="/style/img/cls.gif"><![CDATA[b69255bb325a294ed293c5a650ae5436]]></item>
+		<item id="/style/img/fudong.gif"><![CDATA[cf9fda9b37e82f336bb15cb5e00b59dd]]></item>
+		<item id="/style/img/postbtns2.png"><![CDATA[e567235461045f992f8a179045bd32af]]></item>
+		<item id="/style/img/dot.gif"><![CDATA[412376afd138516f099c9cc84c9b54de]]></item>
+		<item id="/style/img/gou.png"><![CDATA[b439fae70be9b5e0847dcea4f22fcf5d]]></item>
+		<item id="/style/img/footer-bottom-icon-bg.png"><![CDATA[0044e38f882210f493dff1c04c0922a4]]></item>
+		<item id="/style/img/qq.gif"><![CDATA[b9a5d62a57ce1a5384830b2d0b85ffad]]></item>
+		<item id="/style/img/icons.png"><![CDATA[18643674f07efbd275a34f5f608ac6c7]]></item>
+		<item id="/style/img/ad2.jpg"><![CDATA[a647cb31b3f8d3a7d943ba0eb0f5735f]]></item>
+		<item id="/style/img/ad1.jpg"><![CDATA[f3ce0e5b42fa03dad55e45c5c66303e5]]></item>
+		<item id="/style/js/base.js"><![CDATA[9d0cfcfeebe491e2ef556a9511a5d4c5]]></item>
+		<item id="/style/js/jquery-1.js"><![CDATA[fd58084b850d424e8b5f70810f1a89d5]]></item>
+		<item id="/style/js/indexv3.js"><![CDATA[4b43c1dbe31ab15cb41f08c171cff65e]]></item>
+		<item id="/style/js/scrolltop.js"><![CDATA[b8c8f081696dc80e7ec35aa579d7e3c1]]></item>
+		<item id="/style/js/jquery_pic.js"><![CDATA[5d022649ec41c26022f03097c926ec39]]></item>
+		<item id="/group/index.htm"><![CDATA[36876bab5be6f9b247367e2f007a2fca]]></item>
+		<item id="/group/type.htm"><![CDATA[74f89a7c13df40b1a9e4ff551865e1d3]]></item>
+		<item id="/group/group_my.htm"><![CDATA[cf208794326eec12073cd1d13feb115b]]></item>
+	</item>
+</root>

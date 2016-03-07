@@ -1,0 +1,149 @@
+<!--{template common/header}-->
+<!--[name]DIY配色小米文章列表模板[/name]-->
+<!--{eval $list = array();}-->
+<!--{eval $wheresql = category_get_wheresql($cat);}-->
+<!--{eval $list = category_get_list($cat, $wheresql, $page);}-->
+<div id="pt" class="bm cl">
+	<div class="z">
+		<a href="./" class="nvhm" title="{lang homepage}">$_G[setting][bbname]</a> <em>&rsaquo;</em>
+		<a href="$_G[setting][navs][1][filename]">{lang portal}</a> <em>&rsaquo;</em>
+		<!--{loop $cat[ups] $value}--> <a href="{$portalcategory[$value['catid']]['caturl']}">$value[catname]</a><em>&rsaquo;</em><!--{/loop}-->
+		$cat[catname]
+	</div>
+</div>
+
+<div class="tt_listtitle">
+	<h1 class="title-l">$cat[catname]</h1>
+    <!--{if $cat[others]}-->
+		<div class="nav-r">
+					<!--{loop $cat[others] $value}-->
+					<a href="{$portalcategory[$value['catid']]['caturl']}">$value[catname]</a> | 
+					<!--{/loop}-->
+        </div>		
+	<!--{/if}-->
+</div>
+
+<!--{ad/text/wp a_t}-->
+<style id="diy_style" type="text/css"></style>
+<div class="wp">
+	<!--[diy=diy1]--><div id="diy1" class="area"></div><!--[/diy]-->
+</div>
+
+<div id="ct" class="ct2 wp cl">
+	<div class="mn">
+		<!--{ad/articlelist/mbm hm/1}--><!--{ad/articlelist/mbm hm/2}-->
+		<!--[diy=listcontenttop]--><div id="listcontenttop" class="area"></div><!--[/diy]-->
+		<div class="bm">			
+			<!--{if $cat[subs]}-->
+			<div class="bm_c bbda">
+				{lang sub_category}:&nbsp;&nbsp;
+				<!--{eval $i = 1;}-->
+				<!--{loop $cat[subs] $value}-->
+				<!--{if $i != 1}--><span class="pipe">|</span><!--{/if}--><a href="{$portalcategory[$value['catid']]['caturl']}" class="xi2">$value[catname]</a><!--{eval $i--;}-->
+				<!--{/loop}-->
+			</div>
+			<!--{/if}-->
+			<div class="bm_c xld">
+			<!--{loop $list['list'] $value}-->
+				<!--{eval $highlight = article_title_style($value);}-->
+				<!--{eval $article_url = fetch_article_url($value);}-->
+                
+				<dl class="bbda cl" style="margin-top:10px">
+                 <dd>
+                    <div class="tt_wz_img br4">
+                <!--{if $value[pic]}--><div class="atc"><a href="$article_url" target="_blank"><img src="$value[pic]" alt="$value[title]" class="tn br4" /></a></div><!--{/if}-->
+                </div>
+                    </dd>
+					<dt class="xs2"><a href="$article_url" target="_blank" class="xi2" style="color:#333" $highlight>$value[title]</a> <!--{if $value[status] == 1}-->({lang moderate_need})<!--{/if}--></dt>
+					<dd class="xs2 cl" style="color:#777">
+						$value[summary]
+                        <p style="font-size:12px; margin-top:10px;">
+						<!--{if $value[catname] && $cat[subs]}-->{lang category}: <label><a href="{$portalcategory[$value['catid']]['caturl']}" class="xi2">$value[catname]</a></label>&nbsp;&nbsp;<!--{/if}-->
+						<span class="xg1"> $value[dateline]</span>
+						<!--{if $_G['group']['allowmanagearticle'] || ($_G['group']['allowpostarticle'] && $value['uid'] == $_G['uid'] && (empty($_G['group']['allowpostarticlemod']) || $_G['group']['allowpostarticlemod'] && $value['status'] == 1)) || $categoryperm[$value['catid']]['allowmanage']}-->
+						<span class="xg1">
+							<span class="pipe">|</span>
+							<label><a href="portal.php?mod=portalcp&ac=article&op=edit&aid=$value[aid]">{lang edit}</a></label>
+							<span class="pipe">|</span>
+							<label><a href="portal.php?mod=portalcp&ac=article&op=delete&aid=$value[aid]" id="article_delete_$value[aid]" onclick="showWindow(this.id, this.href, 'get', 0);">{lang delete}</a></label>
+						</span>
+						<!--{/if}-->
+					</p>
+					</dd>
+                   
+					
+				</dl>
+			<!--{/loop}-->
+			</div>
+			<!--[diy=listloopbottom]--><div id="listloopbottom" class="area"></div><!--[/diy]-->
+		</div>
+		<!--{ad/articlelist/mbm hm/3}--><!--{ad/articlelist/mbm hm/4}-->
+		<!--{if $list['multi']}--><div class="pgs cl">{$list['multi']}</div><!--{/if}-->
+
+		<!--[diy=diycontentbottom]--><div id="diycontentbottom" class="area"></div><!--[/diy]-->
+
+	</div>
+	<div class="sd pph">
+
+		<div class="drag">
+			<!--[diy=diyrighttop]--><div id="diyrighttop" class="area"></div><!--[/diy]-->
+		</div>
+        
+<!--发布文章-->
+
+<!--{if ($_G['group']['allowpostarticle'] || $_G['group']['allowmanagearticle'] || $categoryperm[$catid]['allowmanage'] || $categoryperm[$catid]['allowpublish']) && empty($cat['disallowpublish'])}-->
+<div id="ttpost_act">
+<div class="">
+				<a href="portal.php?mod=portalcp&ac=article&catid=$cat[catid]" class="tt_create_group2 br4" style="width:250px;">{lang article_publish}</a>
+</div>
+				
+<script type="text/javascript" charset="utf-8">
+                        (function(){
+							var postAct = document.getElementById("ttpost_act");
+                            var postActTop = postAct.offsetTop;
+                            document.onscroll = function() {
+                                var docTop = document.body.scrollTop | document.documentElement.scrollTop;
+                                if (postActTop < (docTop + 100)) {
+                                    postAct.setAttribute("style", "position:fixed; top:0; z-index:300; border-radius:4px;box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.3);");
+                                } else {
+                                    postAct.setAttribute("style", "");
+                                }
+                            }
+                        })()
+                    </script>
+                    </div>
+<!--{/if}-->
+<!--热门排行--> 
+	<div class="bm tt_rmph">
+    	<div class="bm_h">
+        	<h2>热门排行</h2>
+        </div>
+        <div class="bm_c">        	
+            <ul>
+            	<!--[diy=tt_wzlist_rmph]--><div id="tt_wzlist_rmph" class="area"></div><!--[/diy]-->
+            </ul>
+        </div>
+   	</div>
+
+<!--关注我们--> 
+	<div class="bm tt_rmph">
+    	<div class="bm_h">
+        	<h2>关注我们</h2>
+        </div>
+        <div class="bm_c">        	
+            	<!--[diy=tt_guanzhu]--><div id="tt_guanzhu" class="area"></div><!--[/diy]-->
+        </div>
+   	</div>
+    
+		<div class="drag">
+			<!--[diy=diy2]--><div id="diy2" class="area"></div><!--[/diy]-->
+		</div>
+
+	</div>
+</div>
+
+<div class="wp mtn">
+	<!--[diy=diy3]--><div id="diy3" class="area"></div><!--[/diy]-->
+</div>
+
+<!--{template common/footer}-->

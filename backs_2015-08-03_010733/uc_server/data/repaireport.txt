@@ -1,0 +1,2205 @@
+
+>>>>>>>>>>>>>Checking Table pre_common_admincp_cmenu
+---------------------------------
+ultrax.pre_common_admincp_cmenu | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_admincp_cmenu
+ultrax.pre_common_admincp_cmenu | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_common_admincp_group
+---------------------------------
+ultrax.pre_common_admincp_group | check | warning | 1 client is using or hasn't closed the table properly
+ultrax.pre_common_admincp_group | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_admincp_group
+ultrax.pre_common_admincp_group | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_common_admincp_member
+---------------------------------
+ultrax.pre_common_admincp_member | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_admincp_member
+ultrax.pre_common_admincp_member | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_common_admincp_perm
+---------------------------------
+ultrax.pre_common_admincp_perm | check | warning | 1 client is using or hasn't closed the table properly
+ultrax.pre_common_admincp_perm | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_admincp_perm
+ultrax.pre_common_admincp_perm | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_common_admincp_session
+---------------------------------
+ultrax.pre_common_admincp_session | check | warning | 3 clients are using or haven't closed the table properly
+ultrax.pre_common_admincp_session | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_admincp_session
+ultrax.pre_common_admincp_session | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_common_admingroup
+---------------------------------
+ultrax.pre_common_admingroup | check | warning | 1 client is using or hasn't closed the table properly
+ultrax.pre_common_admingroup | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_admingroup
+ultrax.pre_common_admingroup | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_common_adminnote
+---------------------------------
+ultrax.pre_common_adminnote | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_adminnote
+ultrax.pre_common_adminnote | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_common_advertisement
+---------------------------------
+ultrax.pre_common_advertisement | check | warning | 2 clients are using or haven't closed the table properly
+ultrax.pre_common_advertisement | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_advertisement
+ultrax.pre_common_advertisement | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_common_advertisement_custom
+---------------------------------
+ultrax.pre_common_advertisement_custom | check | warning | 1 client is using or hasn't closed the table properly
+ultrax.pre_common_advertisement_custom | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_advertisement_custom
+ultrax.pre_common_advertisement_custom | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_common_banned
+---------------------------------
+ultrax.pre_common_banned | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_banned
+ultrax.pre_common_banned | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_common_block
+---------------------------------
+ultrax.pre_common_block | check | warning | 1 client is using or hasn't closed the table properly
+ultrax.pre_common_block | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_block
+ultrax.pre_common_block | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_common_block_favorite
+---------------------------------
+ultrax.pre_common_block_favorite | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_block_favorite
+ultrax.pre_common_block_favorite | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_common_block_item
+---------------------------------
+ultrax.pre_common_block_item | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_block_item
+ultrax.pre_common_block_item | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_common_block_item_data
+---------------------------------
+ultrax.pre_common_block_item_data | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_block_item_data
+ultrax.pre_common_block_item_data | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_common_block_permission
+---------------------------------
+ultrax.pre_common_block_permission | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_block_permission
+ultrax.pre_common_block_permission | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_common_block_pic
+---------------------------------
+ultrax.pre_common_block_pic | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_block_pic
+ultrax.pre_common_block_pic | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_common_block_style
+---------------------------------
+ultrax.pre_common_block_style | check | warning | 1 client is using or hasn't closed the table properly
+ultrax.pre_common_block_style | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_block_style
+ultrax.pre_common_block_style | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_common_block_xml
+---------------------------------
+ultrax.pre_common_block_xml | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_block_xml
+ultrax.pre_common_block_xml | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_common_cache
+---------------------------------
+ultrax.pre_common_cache | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_cache
+ultrax.pre_common_cache | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_common_card
+---------------------------------
+ultrax.pre_common_card | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_card
+ultrax.pre_common_card | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_common_card_log
+---------------------------------
+ultrax.pre_common_card_log | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_card_log
+ultrax.pre_common_card_log | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_common_card_type
+---------------------------------
+ultrax.pre_common_card_type | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_card_type
+ultrax.pre_common_card_type | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_common_connect_guest
+---------------------------------
+ultrax.pre_common_connect_guest | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_connect_guest
+ultrax.pre_common_connect_guest | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_common_credit_log
+---------------------------------
+ultrax.pre_common_credit_log | check | warning | 1 client is using or hasn't closed the table properly
+ultrax.pre_common_credit_log | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_credit_log
+ultrax.pre_common_credit_log | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_common_credit_log_field
+---------------------------------
+ultrax.pre_common_credit_log_field | check | warning | 1 client is using or hasn't closed the table properly
+ultrax.pre_common_credit_log_field | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_credit_log_field
+ultrax.pre_common_credit_log_field | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_common_credit_rule
+---------------------------------
+ultrax.pre_common_credit_rule | check | warning | 1 client is using or hasn't closed the table properly
+ultrax.pre_common_credit_rule | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_credit_rule
+ultrax.pre_common_credit_rule | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_common_credit_rule_log
+---------------------------------
+ultrax.pre_common_credit_rule_log | check | warning | 3 clients are using or haven't closed the table properly
+ultrax.pre_common_credit_rule_log | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_credit_rule_log
+ultrax.pre_common_credit_rule_log | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_common_credit_rule_log_field
+---------------------------------
+ultrax.pre_common_credit_rule_log_field | check | warning | 1 client is using or hasn't closed the table properly
+ultrax.pre_common_credit_rule_log_field | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_credit_rule_log_field
+ultrax.pre_common_credit_rule_log_field | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_common_cron
+---------------------------------
+ultrax.pre_common_cron | check | warning | 3 clients are using or haven't closed the table properly
+ultrax.pre_common_cron | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_cron
+ultrax.pre_common_cron | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_common_devicetoken
+---------------------------------
+ultrax.pre_common_devicetoken | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_devicetoken
+ultrax.pre_common_devicetoken | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_common_district
+---------------------------------
+ultrax.pre_common_district | check | warning | 1 client is using or hasn't closed the table properly
+ultrax.pre_common_district | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_district
+ultrax.pre_common_district | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_common_diy_data
+---------------------------------
+ultrax.pre_common_diy_data | check | warning | 1 client is using or hasn't closed the table properly
+ultrax.pre_common_diy_data | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_diy_data
+ultrax.pre_common_diy_data | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_common_domain
+---------------------------------
+ultrax.pre_common_domain | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_domain
+ultrax.pre_common_domain | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_common_failedip
+---------------------------------
+ultrax.pre_common_failedip | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_failedip
+ultrax.pre_common_failedip | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_common_failedlogin
+---------------------------------
+ultrax.pre_common_failedlogin | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_failedlogin
+ultrax.pre_common_failedlogin | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_common_friendlink
+---------------------------------
+ultrax.pre_common_friendlink | check | warning | 1 client is using or hasn't closed the table properly
+ultrax.pre_common_friendlink | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_friendlink
+ultrax.pre_common_friendlink | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_common_grouppm
+---------------------------------
+ultrax.pre_common_grouppm | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_grouppm
+ultrax.pre_common_grouppm | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_common_invite
+---------------------------------
+ultrax.pre_common_invite | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_invite
+ultrax.pre_common_invite | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_common_magic
+---------------------------------
+ultrax.pre_common_magic | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_magic
+ultrax.pre_common_magic | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_common_magiclog
+---------------------------------
+ultrax.pre_common_magiclog | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_magiclog
+ultrax.pre_common_magiclog | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_common_mailcron
+---------------------------------
+ultrax.pre_common_mailcron | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_mailcron
+ultrax.pre_common_mailcron | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_common_mailqueue
+---------------------------------
+ultrax.pre_common_mailqueue | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_mailqueue
+ultrax.pre_common_mailqueue | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_common_member
+---------------------------------
+ultrax.pre_common_member | check | warning | 3 clients are using or haven't closed the table properly
+ultrax.pre_common_member | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_member
+ultrax.pre_common_member | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_common_member_action_log
+---------------------------------
+ultrax.pre_common_member_action_log | check | warning | 3 clients are using or haven't closed the table properly
+ultrax.pre_common_member_action_log | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_member_action_log
+ultrax.pre_common_member_action_log | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_common_member_connect
+---------------------------------
+ultrax.pre_common_member_connect | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_member_connect
+ultrax.pre_common_member_connect | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_common_member_count
+---------------------------------
+ultrax.pre_common_member_count | check | warning | 3 clients are using or haven't closed the table properly
+ultrax.pre_common_member_count | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_member_count
+ultrax.pre_common_member_count | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_common_member_crime
+---------------------------------
+ultrax.pre_common_member_crime | check | warning | 1 client is using or hasn't closed the table properly
+ultrax.pre_common_member_crime | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_member_crime
+ultrax.pre_common_member_crime | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_common_member_field_forum
+---------------------------------
+ultrax.pre_common_member_field_forum | check | warning | 3 clients are using or haven't closed the table properly
+ultrax.pre_common_member_field_forum | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_member_field_forum
+ultrax.pre_common_member_field_forum | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_common_member_field_home
+---------------------------------
+ultrax.pre_common_member_field_home | check | warning | 3 clients are using or haven't closed the table properly
+ultrax.pre_common_member_field_home | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_member_field_home
+ultrax.pre_common_member_field_home | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_common_member_forum_buylog
+---------------------------------
+ultrax.pre_common_member_forum_buylog | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_member_forum_buylog
+ultrax.pre_common_member_forum_buylog | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_common_member_grouppm
+---------------------------------
+ultrax.pre_common_member_grouppm | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_member_grouppm
+ultrax.pre_common_member_grouppm | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_common_member_log
+---------------------------------
+ultrax.pre_common_member_log | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_member_log
+ultrax.pre_common_member_log | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_common_member_magic
+---------------------------------
+ultrax.pre_common_member_magic | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_member_magic
+ultrax.pre_common_member_magic | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_common_member_medal
+---------------------------------
+ultrax.pre_common_member_medal | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_member_medal
+ultrax.pre_common_member_medal | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_common_member_newprompt
+---------------------------------
+ultrax.pre_common_member_newprompt | check | warning | 3 clients are using or haven't closed the table properly
+ultrax.pre_common_member_newprompt | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_member_newprompt
+ultrax.pre_common_member_newprompt | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_common_member_profile
+---------------------------------
+ultrax.pre_common_member_profile | check | warning | 3 clients are using or haven't closed the table properly
+ultrax.pre_common_member_profile | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_member_profile
+ultrax.pre_common_member_profile | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_common_member_profile_setting
+---------------------------------
+ultrax.pre_common_member_profile_setting | check | warning | 1 client is using or hasn't closed the table properly
+ultrax.pre_common_member_profile_setting | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_member_profile_setting
+ultrax.pre_common_member_profile_setting | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_common_member_security
+---------------------------------
+ultrax.pre_common_member_security | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_member_security
+ultrax.pre_common_member_security | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_common_member_secwhite
+---------------------------------
+ultrax.pre_common_member_secwhite | check | note | The storage engine for the table doesn't support check
+>>>>>>>>>>>>>Optimizing Table pre_common_member_secwhite
+ultrax.pre_common_member_secwhite | optimize | note | The storage engine for the table doesn't support optimize
+
+
+>>>>>>>>>>>>>Checking Table pre_common_member_stat_field
+---------------------------------
+ultrax.pre_common_member_stat_field | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_member_stat_field
+ultrax.pre_common_member_stat_field | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_common_member_status
+---------------------------------
+ultrax.pre_common_member_status | check | warning | 3 clients are using or haven't closed the table properly
+ultrax.pre_common_member_status | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_member_status
+ultrax.pre_common_member_status | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_common_member_validate
+---------------------------------
+ultrax.pre_common_member_validate | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_member_validate
+ultrax.pre_common_member_validate | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_common_member_verify
+---------------------------------
+ultrax.pre_common_member_verify | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_member_verify
+ultrax.pre_common_member_verify | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_common_member_verify_info
+---------------------------------
+ultrax.pre_common_member_verify_info | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_member_verify_info
+ultrax.pre_common_member_verify_info | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_common_member_wechat
+---------------------------------
+ultrax.pre_common_member_wechat | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_member_wechat
+ultrax.pre_common_member_wechat | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_common_member_wechatmp
+---------------------------------
+ultrax.pre_common_member_wechatmp | check | warning | 2 clients are using or haven't closed the table properly
+ultrax.pre_common_member_wechatmp | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_member_wechatmp
+ultrax.pre_common_member_wechatmp | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_common_myapp
+---------------------------------
+ultrax.pre_common_myapp | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_myapp
+ultrax.pre_common_myapp | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_common_myinvite
+---------------------------------
+ultrax.pre_common_myinvite | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_myinvite
+ultrax.pre_common_myinvite | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_common_mytask
+---------------------------------
+ultrax.pre_common_mytask | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_mytask
+ultrax.pre_common_mytask | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_common_nav
+---------------------------------
+ultrax.pre_common_nav | check | warning | 2 clients are using or haven't closed the table properly
+ultrax.pre_common_nav | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_nav
+ultrax.pre_common_nav | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_common_onlinetime
+---------------------------------
+ultrax.pre_common_onlinetime | check | warning | 3 clients are using or haven't closed the table properly
+ultrax.pre_common_onlinetime | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_onlinetime
+ultrax.pre_common_onlinetime | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_common_optimizer
+---------------------------------
+ultrax.pre_common_optimizer | check | warning | 1 client is using or hasn't closed the table properly
+ultrax.pre_common_optimizer | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_optimizer
+ultrax.pre_common_optimizer | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_common_patch
+---------------------------------
+ultrax.pre_common_patch | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_patch
+ultrax.pre_common_patch | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_common_plugin
+---------------------------------
+ultrax.pre_common_plugin | check | warning | 1 client is using or hasn't closed the table properly
+ultrax.pre_common_plugin | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_plugin
+ultrax.pre_common_plugin | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_common_pluginvar
+---------------------------------
+ultrax.pre_common_pluginvar | check | warning | 2 clients are using or haven't closed the table properly
+ultrax.pre_common_pluginvar | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_pluginvar
+ultrax.pre_common_pluginvar | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_common_process
+---------------------------------
+ultrax.pre_common_process | check | note | The storage engine for the table doesn't support check
+>>>>>>>>>>>>>Optimizing Table pre_common_process
+ultrax.pre_common_process | optimize | note | The storage engine for the table doesn't support optimize
+
+
+>>>>>>>>>>>>>Checking Table pre_common_regip
+---------------------------------
+ultrax.pre_common_regip | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_regip
+ultrax.pre_common_regip | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_common_relatedlink
+---------------------------------
+ultrax.pre_common_relatedlink | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_relatedlink
+ultrax.pre_common_relatedlink | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_common_remote_port
+---------------------------------
+ultrax.pre_common_remote_port | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_remote_port
+ultrax.pre_common_remote_port | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_common_report
+---------------------------------
+ultrax.pre_common_report | check | warning | 1 client is using or hasn't closed the table properly
+ultrax.pre_common_report | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_report
+ultrax.pre_common_report | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_common_searchindex
+---------------------------------
+ultrax.pre_common_searchindex | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_searchindex
+ultrax.pre_common_searchindex | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_common_seccheck
+---------------------------------
+ultrax.pre_common_seccheck | check | note | The storage engine for the table doesn't support check
+>>>>>>>>>>>>>Optimizing Table pre_common_seccheck
+ultrax.pre_common_seccheck | optimize | note | The storage engine for the table doesn't support optimize
+
+
+>>>>>>>>>>>>>Checking Table pre_common_secquestion
+---------------------------------
+ultrax.pre_common_secquestion | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_secquestion
+ultrax.pre_common_secquestion | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_common_session
+---------------------------------
+ultrax.pre_common_session | check | note | The storage engine for the table doesn't support check
+>>>>>>>>>>>>>Optimizing Table pre_common_session
+ultrax.pre_common_session | optimize | note | The storage engine for the table doesn't support optimize
+
+
+>>>>>>>>>>>>>Checking Table pre_common_setting
+---------------------------------
+ultrax.pre_common_setting | check | warning | 3 clients are using or haven't closed the table properly
+ultrax.pre_common_setting | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_setting
+ultrax.pre_common_setting | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_common_smiley
+---------------------------------
+ultrax.pre_common_smiley | check | warning | 1 client is using or hasn't closed the table properly
+ultrax.pre_common_smiley | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_smiley
+ultrax.pre_common_smiley | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_common_sphinxcounter
+---------------------------------
+ultrax.pre_common_sphinxcounter | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_sphinxcounter
+ultrax.pre_common_sphinxcounter | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_common_stat
+---------------------------------
+ultrax.pre_common_stat | check | warning | 3 clients are using or haven't closed the table properly
+ultrax.pre_common_stat | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_stat
+ultrax.pre_common_stat | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_common_statuser
+---------------------------------
+ultrax.pre_common_statuser | check | warning | 3 clients are using or haven't closed the table properly
+ultrax.pre_common_statuser | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_statuser
+ultrax.pre_common_statuser | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_common_style
+---------------------------------
+ultrax.pre_common_style | check | warning | 1 client is using or hasn't closed the table properly
+ultrax.pre_common_style | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_style
+ultrax.pre_common_style | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_common_stylevar
+---------------------------------
+ultrax.pre_common_stylevar | check | warning | 1 client is using or hasn't closed the table properly
+ultrax.pre_common_stylevar | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_stylevar
+ultrax.pre_common_stylevar | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_common_syscache
+---------------------------------
+ultrax.pre_common_syscache | check | warning | 3 clients are using or haven't closed the table properly
+ultrax.pre_common_syscache | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_syscache
+ultrax.pre_common_syscache | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_common_tag
+---------------------------------
+ultrax.pre_common_tag | check | warning | 1 client is using or hasn't closed the table properly
+ultrax.pre_common_tag | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_tag
+ultrax.pre_common_tag | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_common_tagitem
+---------------------------------
+ultrax.pre_common_tagitem | check | warning | 1 client is using or hasn't closed the table properly
+ultrax.pre_common_tagitem | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_tagitem
+ultrax.pre_common_tagitem | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_common_task
+---------------------------------
+ultrax.pre_common_task | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_task
+ultrax.pre_common_task | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_common_taskvar
+---------------------------------
+ultrax.pre_common_taskvar | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_taskvar
+ultrax.pre_common_taskvar | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_common_template
+---------------------------------
+ultrax.pre_common_template | check | warning | 1 client is using or hasn't closed the table properly
+ultrax.pre_common_template | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_template
+ultrax.pre_common_template | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_common_template_block
+---------------------------------
+ultrax.pre_common_template_block | check | warning | 1 client is using or hasn't closed the table properly
+ultrax.pre_common_template_block | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_template_block
+ultrax.pre_common_template_block | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_common_template_permission
+---------------------------------
+ultrax.pre_common_template_permission | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_template_permission
+ultrax.pre_common_template_permission | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_common_uin_black
+---------------------------------
+ultrax.pre_common_uin_black | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_uin_black
+ultrax.pre_common_uin_black | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_common_usergroup
+---------------------------------
+ultrax.pre_common_usergroup | check | warning | 1 client is using or hasn't closed the table properly
+ultrax.pre_common_usergroup | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_usergroup
+ultrax.pre_common_usergroup | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_common_usergroup_field
+---------------------------------
+ultrax.pre_common_usergroup_field | check | warning | 1 client is using or hasn't closed the table properly
+ultrax.pre_common_usergroup_field | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_usergroup_field
+ultrax.pre_common_usergroup_field | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_common_visit
+---------------------------------
+ultrax.pre_common_visit | check | note | The storage engine for the table doesn't support check
+>>>>>>>>>>>>>Optimizing Table pre_common_visit
+ultrax.pre_common_visit | optimize | note | The storage engine for the table doesn't support optimize
+
+
+>>>>>>>>>>>>>Checking Table pre_common_word
+---------------------------------
+ultrax.pre_common_word | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_word
+ultrax.pre_common_word | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_common_word_type
+---------------------------------
+ultrax.pre_common_word_type | check | warning | 1 client is using or hasn't closed the table properly
+ultrax.pre_common_word_type | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_common_word_type
+ultrax.pre_common_word_type | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_connect_disktask
+---------------------------------
+ultrax.pre_connect_disktask | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_connect_disktask
+ultrax.pre_connect_disktask | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_connect_feedlog
+---------------------------------
+ultrax.pre_connect_feedlog | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_connect_feedlog
+ultrax.pre_connect_feedlog | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_connect_memberbindlog
+---------------------------------
+ultrax.pre_connect_memberbindlog | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_connect_memberbindlog
+ultrax.pre_connect_memberbindlog | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_connect_postfeedlog
+---------------------------------
+ultrax.pre_connect_postfeedlog | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_connect_postfeedlog
+ultrax.pre_connect_postfeedlog | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_connect_tthreadlog
+---------------------------------
+ultrax.pre_connect_tthreadlog | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_connect_tthreadlog
+ultrax.pre_connect_tthreadlog | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_dsu_paulsign
+---------------------------------
+ultrax.pre_dsu_paulsign | check | warning | 3 clients are using or haven't closed the table properly
+ultrax.pre_dsu_paulsign | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_dsu_paulsign
+ultrax.pre_dsu_paulsign | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_dsu_paulsignemot
+---------------------------------
+ultrax.pre_dsu_paulsignemot | check | warning | 3 clients are using or haven't closed the table properly
+ultrax.pre_dsu_paulsignemot | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_dsu_paulsignemot
+ultrax.pre_dsu_paulsignemot | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_dsu_paulsignset
+---------------------------------
+ultrax.pre_dsu_paulsignset | check | warning | 3 clients are using or haven't closed the table properly
+ultrax.pre_dsu_paulsignset | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_dsu_paulsignset
+ultrax.pre_dsu_paulsignset | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_access
+---------------------------------
+ultrax.pre_forum_access | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_access
+ultrax.pre_forum_access | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_activity
+---------------------------------
+ultrax.pre_forum_activity | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_activity
+ultrax.pre_forum_activity | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_activityapply
+---------------------------------
+ultrax.pre_forum_activityapply | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_activityapply
+ultrax.pre_forum_activityapply | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_announcement
+---------------------------------
+ultrax.pre_forum_announcement | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_announcement
+ultrax.pre_forum_announcement | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_attachment
+---------------------------------
+ultrax.pre_forum_attachment | check | warning | 3 clients are using or haven't closed the table properly
+ultrax.pre_forum_attachment | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_attachment
+ultrax.pre_forum_attachment | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_attachment_0
+---------------------------------
+ultrax.pre_forum_attachment_0 | check | warning | 1 client is using or hasn't closed the table properly
+ultrax.pre_forum_attachment_0 | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_attachment_0
+ultrax.pre_forum_attachment_0 | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_attachment_1
+---------------------------------
+ultrax.pre_forum_attachment_1 | check | warning | 1 client is using or hasn't closed the table properly
+ultrax.pre_forum_attachment_1 | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_attachment_1
+ultrax.pre_forum_attachment_1 | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_attachment_2
+---------------------------------
+ultrax.pre_forum_attachment_2 | check | warning | 2 clients are using or haven't closed the table properly
+ultrax.pre_forum_attachment_2 | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_attachment_2
+ultrax.pre_forum_attachment_2 | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_attachment_3
+---------------------------------
+ultrax.pre_forum_attachment_3 | check | warning | 2 clients are using or haven't closed the table properly
+ultrax.pre_forum_attachment_3 | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_attachment_3
+ultrax.pre_forum_attachment_3 | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_attachment_4
+---------------------------------
+ultrax.pre_forum_attachment_4 | check | warning | 1 client is using or hasn't closed the table properly
+ultrax.pre_forum_attachment_4 | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_attachment_4
+ultrax.pre_forum_attachment_4 | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_attachment_5
+---------------------------------
+ultrax.pre_forum_attachment_5 | check | warning | 1 client is using or hasn't closed the table properly
+ultrax.pre_forum_attachment_5 | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_attachment_5
+ultrax.pre_forum_attachment_5 | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_attachment_6
+---------------------------------
+ultrax.pre_forum_attachment_6 | check | warning | 2 clients are using or haven't closed the table properly
+ultrax.pre_forum_attachment_6 | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_attachment_6
+ultrax.pre_forum_attachment_6 | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_attachment_7
+---------------------------------
+ultrax.pre_forum_attachment_7 | check | warning | 3 clients are using or haven't closed the table properly
+ultrax.pre_forum_attachment_7 | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_attachment_7
+ultrax.pre_forum_attachment_7 | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_attachment_8
+---------------------------------
+ultrax.pre_forum_attachment_8 | check | warning | 2 clients are using or haven't closed the table properly
+ultrax.pre_forum_attachment_8 | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_attachment_8
+ultrax.pre_forum_attachment_8 | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_attachment_9
+---------------------------------
+ultrax.pre_forum_attachment_9 | check | warning | 3 clients are using or haven't closed the table properly
+ultrax.pre_forum_attachment_9 | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_attachment_9
+ultrax.pre_forum_attachment_9 | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_attachment_exif
+---------------------------------
+ultrax.pre_forum_attachment_exif | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_attachment_exif
+ultrax.pre_forum_attachment_exif | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_attachment_unused
+---------------------------------
+ultrax.pre_forum_attachment_unused | check | warning | 3 clients are using or haven't closed the table properly
+ultrax.pre_forum_attachment_unused | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_attachment_unused
+ultrax.pre_forum_attachment_unused | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_attachtype
+---------------------------------
+ultrax.pre_forum_attachtype | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_attachtype
+ultrax.pre_forum_attachtype | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_bbcode
+---------------------------------
+ultrax.pre_forum_bbcode | check | warning | 1 client is using or hasn't closed the table properly
+ultrax.pre_forum_bbcode | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_bbcode
+ultrax.pre_forum_bbcode | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_collection
+---------------------------------
+ultrax.pre_forum_collection | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_collection
+ultrax.pre_forum_collection | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_collectioncomment
+---------------------------------
+ultrax.pre_forum_collectioncomment | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_collectioncomment
+ultrax.pre_forum_collectioncomment | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_collectionfollow
+---------------------------------
+ultrax.pre_forum_collectionfollow | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_collectionfollow
+ultrax.pre_forum_collectionfollow | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_collectioninvite
+---------------------------------
+ultrax.pre_forum_collectioninvite | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_collectioninvite
+ultrax.pre_forum_collectioninvite | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_collectionrelated
+---------------------------------
+ultrax.pre_forum_collectionrelated | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_collectionrelated
+ultrax.pre_forum_collectionrelated | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_collectionteamworker
+---------------------------------
+ultrax.pre_forum_collectionteamworker | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_collectionteamworker
+ultrax.pre_forum_collectionteamworker | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_collectionthread
+---------------------------------
+ultrax.pre_forum_collectionthread | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_collectionthread
+ultrax.pre_forum_collectionthread | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_creditslog
+---------------------------------
+ultrax.pre_forum_creditslog | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_creditslog
+ultrax.pre_forum_creditslog | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_debate
+---------------------------------
+ultrax.pre_forum_debate | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_debate
+ultrax.pre_forum_debate | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_debatepost
+---------------------------------
+ultrax.pre_forum_debatepost | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_debatepost
+ultrax.pre_forum_debatepost | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_faq
+---------------------------------
+ultrax.pre_forum_faq | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_faq
+ultrax.pre_forum_faq | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_filter_post
+---------------------------------
+ultrax.pre_forum_filter_post | check | warning | 3 clients are using or haven't closed the table properly
+ultrax.pre_forum_filter_post | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_filter_post
+ultrax.pre_forum_filter_post | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_forum
+---------------------------------
+ultrax.pre_forum_forum | check | warning | 3 clients are using or haven't closed the table properly
+ultrax.pre_forum_forum | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_forum
+ultrax.pre_forum_forum | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_forum_threadtable
+---------------------------------
+ultrax.pre_forum_forum_threadtable | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_forum_threadtable
+ultrax.pre_forum_forum_threadtable | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_forumfield
+---------------------------------
+ultrax.pre_forum_forumfield | check | warning | 2 clients are using or haven't closed the table properly
+ultrax.pre_forum_forumfield | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_forumfield
+ultrax.pre_forum_forumfield | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_forumrecommend
+---------------------------------
+ultrax.pre_forum_forumrecommend | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_forumrecommend
+ultrax.pre_forum_forumrecommend | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_groupcreditslog
+---------------------------------
+ultrax.pre_forum_groupcreditslog | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_groupcreditslog
+ultrax.pre_forum_groupcreditslog | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_groupfield
+---------------------------------
+ultrax.pre_forum_groupfield | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_groupfield
+ultrax.pre_forum_groupfield | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_groupinvite
+---------------------------------
+ultrax.pre_forum_groupinvite | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_groupinvite
+ultrax.pre_forum_groupinvite | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_grouplevel
+---------------------------------
+ultrax.pre_forum_grouplevel | check | warning | 1 client is using or hasn't closed the table properly
+ultrax.pre_forum_grouplevel | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_grouplevel
+ultrax.pre_forum_grouplevel | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_groupuser
+---------------------------------
+ultrax.pre_forum_groupuser | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_groupuser
+ultrax.pre_forum_groupuser | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_hotreply_member
+---------------------------------
+ultrax.pre_forum_hotreply_member | check | warning | 2 clients are using or haven't closed the table properly
+ultrax.pre_forum_hotreply_member | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_hotreply_member
+ultrax.pre_forum_hotreply_member | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_hotreply_number
+---------------------------------
+ultrax.pre_forum_hotreply_number | check | warning | 2 clients are using or haven't closed the table properly
+ultrax.pre_forum_hotreply_number | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_hotreply_number
+ultrax.pre_forum_hotreply_number | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_imagetype
+---------------------------------
+ultrax.pre_forum_imagetype | check | warning | 1 client is using or hasn't closed the table properly
+ultrax.pre_forum_imagetype | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_imagetype
+ultrax.pre_forum_imagetype | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_medal
+---------------------------------
+ultrax.pre_forum_medal | check | warning | 1 client is using or hasn't closed the table properly
+ultrax.pre_forum_medal | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_medal
+ultrax.pre_forum_medal | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_medallog
+---------------------------------
+ultrax.pre_forum_medallog | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_medallog
+ultrax.pre_forum_medallog | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_memberrecommend
+---------------------------------
+ultrax.pre_forum_memberrecommend | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_memberrecommend
+ultrax.pre_forum_memberrecommend | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_moderator
+---------------------------------
+ultrax.pre_forum_moderator | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_moderator
+ultrax.pre_forum_moderator | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_modwork
+---------------------------------
+ultrax.pre_forum_modwork | check | warning | 3 clients are using or haven't closed the table properly
+ultrax.pre_forum_modwork | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_modwork
+ultrax.pre_forum_modwork | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_newthread
+---------------------------------
+ultrax.pre_forum_newthread | check | warning | 3 clients are using or haven't closed the table properly
+ultrax.pre_forum_newthread | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_newthread
+ultrax.pre_forum_newthread | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_onlinelist
+---------------------------------
+ultrax.pre_forum_onlinelist | check | warning | 1 client is using or hasn't closed the table properly
+ultrax.pre_forum_onlinelist | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_onlinelist
+ultrax.pre_forum_onlinelist | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_order
+---------------------------------
+ultrax.pre_forum_order | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_order
+ultrax.pre_forum_order | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_poll
+---------------------------------
+ultrax.pre_forum_poll | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_poll
+ultrax.pre_forum_poll | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_polloption
+---------------------------------
+ultrax.pre_forum_polloption | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_polloption
+ultrax.pre_forum_polloption | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_polloption_image
+---------------------------------
+ultrax.pre_forum_polloption_image | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_polloption_image
+ultrax.pre_forum_polloption_image | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_pollvoter
+---------------------------------
+ultrax.pre_forum_pollvoter | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_pollvoter
+ultrax.pre_forum_pollvoter | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_post
+---------------------------------
+ultrax.pre_forum_post | check | warning | 3 clients are using or haven't closed the table properly
+ultrax.pre_forum_post | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_post
+ultrax.pre_forum_post | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_post_location
+---------------------------------
+ultrax.pre_forum_post_location | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_post_location
+ultrax.pre_forum_post_location | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_post_moderate
+---------------------------------
+ultrax.pre_forum_post_moderate | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_post_moderate
+ultrax.pre_forum_post_moderate | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_post_tableid
+---------------------------------
+ultrax.pre_forum_post_tableid | check | warning | 3 clients are using or haven't closed the table properly
+ultrax.pre_forum_post_tableid | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_post_tableid
+ultrax.pre_forum_post_tableid | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_postcache
+---------------------------------
+ultrax.pre_forum_postcache | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_postcache
+ultrax.pre_forum_postcache | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_postcomment
+---------------------------------
+ultrax.pre_forum_postcomment | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_postcomment
+ultrax.pre_forum_postcomment | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_postlog
+---------------------------------
+ultrax.pre_forum_postlog | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_postlog
+ultrax.pre_forum_postlog | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_poststick
+---------------------------------
+ultrax.pre_forum_poststick | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_poststick
+ultrax.pre_forum_poststick | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_promotion
+---------------------------------
+ultrax.pre_forum_promotion | check | warning | 3 clients are using or haven't closed the table properly
+ultrax.pre_forum_promotion | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_promotion
+ultrax.pre_forum_promotion | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_ratelog
+---------------------------------
+ultrax.pre_forum_ratelog | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_ratelog
+ultrax.pre_forum_ratelog | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_relatedthread
+---------------------------------
+ultrax.pre_forum_relatedthread | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_relatedthread
+ultrax.pre_forum_relatedthread | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_replycredit
+---------------------------------
+ultrax.pre_forum_replycredit | check | warning | 1 client is using or hasn't closed the table properly
+ultrax.pre_forum_replycredit | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_replycredit
+ultrax.pre_forum_replycredit | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_rsscache
+---------------------------------
+ultrax.pre_forum_rsscache | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_rsscache
+ultrax.pre_forum_rsscache | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_sofa
+---------------------------------
+ultrax.pre_forum_sofa | check | warning | 3 clients are using or haven't closed the table properly
+ultrax.pre_forum_sofa | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_sofa
+ultrax.pre_forum_sofa | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_spacecache
+---------------------------------
+ultrax.pre_forum_spacecache | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_spacecache
+ultrax.pre_forum_spacecache | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_statlog
+---------------------------------
+ultrax.pre_forum_statlog | check | warning | 3 clients are using or haven't closed the table properly
+ultrax.pre_forum_statlog | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_statlog
+ultrax.pre_forum_statlog | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_thread
+---------------------------------
+ultrax.pre_forum_thread | check | warning | 3 clients are using or haven't closed the table properly
+ultrax.pre_forum_thread | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_thread
+ultrax.pre_forum_thread | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_thread_moderate
+---------------------------------
+ultrax.pre_forum_thread_moderate | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_thread_moderate
+ultrax.pre_forum_thread_moderate | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_threadaddviews
+---------------------------------
+ultrax.pre_forum_threadaddviews | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_threadaddviews
+ultrax.pre_forum_threadaddviews | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_threadcalendar
+---------------------------------
+ultrax.pre_forum_threadcalendar | check | warning | 3 clients are using or haven't closed the table properly
+ultrax.pre_forum_threadcalendar | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_threadcalendar
+ultrax.pre_forum_threadcalendar | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_threadclass
+---------------------------------
+ultrax.pre_forum_threadclass | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_threadclass
+ultrax.pre_forum_threadclass | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_threadclosed
+---------------------------------
+ultrax.pre_forum_threadclosed | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_threadclosed
+ultrax.pre_forum_threadclosed | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_threaddisablepos
+---------------------------------
+ultrax.pre_forum_threaddisablepos | check | note | The storage engine for the table doesn't support check
+>>>>>>>>>>>>>Optimizing Table pre_forum_threaddisablepos
+ultrax.pre_forum_threaddisablepos | optimize | note | The storage engine for the table doesn't support optimize
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_threadhidelog
+---------------------------------
+ultrax.pre_forum_threadhidelog | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_threadhidelog
+ultrax.pre_forum_threadhidelog | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_threadhot
+---------------------------------
+ultrax.pre_forum_threadhot | check | warning | 3 clients are using or haven't closed the table properly
+ultrax.pre_forum_threadhot | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_threadhot
+ultrax.pre_forum_threadhot | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_threadimage
+---------------------------------
+ultrax.pre_forum_threadimage | check | warning | 3 clients are using or haven't closed the table properly
+ultrax.pre_forum_threadimage | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_threadimage
+ultrax.pre_forum_threadimage | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_threadlog
+---------------------------------
+ultrax.pre_forum_threadlog | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_threadlog
+ultrax.pre_forum_threadlog | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_threadmod
+---------------------------------
+ultrax.pre_forum_threadmod | check | warning | 3 clients are using or haven't closed the table properly
+ultrax.pre_forum_threadmod | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_threadmod
+ultrax.pre_forum_threadmod | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_threadpartake
+---------------------------------
+ultrax.pre_forum_threadpartake | check | warning | 3 clients are using or haven't closed the table properly
+ultrax.pre_forum_threadpartake | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_threadpartake
+ultrax.pre_forum_threadpartake | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_threadpreview
+---------------------------------
+ultrax.pre_forum_threadpreview | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_threadpreview
+ultrax.pre_forum_threadpreview | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_threadprofile
+---------------------------------
+ultrax.pre_forum_threadprofile | check | warning | 1 client is using or hasn't closed the table properly
+ultrax.pre_forum_threadprofile | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_threadprofile
+ultrax.pre_forum_threadprofile | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_threadprofile_group
+---------------------------------
+ultrax.pre_forum_threadprofile_group | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_threadprofile_group
+ultrax.pre_forum_threadprofile_group | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_threadrush
+---------------------------------
+ultrax.pre_forum_threadrush | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_threadrush
+ultrax.pre_forum_threadrush | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_threadtype
+---------------------------------
+ultrax.pre_forum_threadtype | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_threadtype
+ultrax.pre_forum_threadtype | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_trade
+---------------------------------
+ultrax.pre_forum_trade | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_trade
+ultrax.pre_forum_trade | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_tradecomment
+---------------------------------
+ultrax.pre_forum_tradecomment | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_tradecomment
+ultrax.pre_forum_tradecomment | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_tradelog
+---------------------------------
+ultrax.pre_forum_tradelog | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_tradelog
+ultrax.pre_forum_tradelog | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_typeoption
+---------------------------------
+ultrax.pre_forum_typeoption | check | warning | 1 client is using or hasn't closed the table properly
+ultrax.pre_forum_typeoption | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_typeoption
+ultrax.pre_forum_typeoption | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_typeoptionvar
+---------------------------------
+ultrax.pre_forum_typeoptionvar | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_typeoptionvar
+ultrax.pre_forum_typeoptionvar | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_typevar
+---------------------------------
+ultrax.pre_forum_typevar | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_typevar
+ultrax.pre_forum_typevar | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_forum_warning
+---------------------------------
+ultrax.pre_forum_warning | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_forum_warning
+ultrax.pre_forum_warning | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_home_album
+---------------------------------
+ultrax.pre_home_album | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_home_album
+ultrax.pre_home_album | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_home_album_category
+---------------------------------
+ultrax.pre_home_album_category | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_home_album_category
+ultrax.pre_home_album_category | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_home_appcreditlog
+---------------------------------
+ultrax.pre_home_appcreditlog | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_home_appcreditlog
+ultrax.pre_home_appcreditlog | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_home_blacklist
+---------------------------------
+ultrax.pre_home_blacklist | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_home_blacklist
+ultrax.pre_home_blacklist | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_home_blog
+---------------------------------
+ultrax.pre_home_blog | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_home_blog
+ultrax.pre_home_blog | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_home_blog_category
+---------------------------------
+ultrax.pre_home_blog_category | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_home_blog_category
+ultrax.pre_home_blog_category | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_home_blog_moderate
+---------------------------------
+ultrax.pre_home_blog_moderate | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_home_blog_moderate
+ultrax.pre_home_blog_moderate | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_home_blogfield
+---------------------------------
+ultrax.pre_home_blogfield | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_home_blogfield
+ultrax.pre_home_blogfield | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_home_class
+---------------------------------
+ultrax.pre_home_class | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_home_class
+ultrax.pre_home_class | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_home_click
+---------------------------------
+ultrax.pre_home_click | check | warning | 1 client is using or hasn't closed the table properly
+ultrax.pre_home_click | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_home_click
+ultrax.pre_home_click | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_home_clickuser
+---------------------------------
+ultrax.pre_home_clickuser | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_home_clickuser
+ultrax.pre_home_clickuser | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_home_comment
+---------------------------------
+ultrax.pre_home_comment | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_home_comment
+ultrax.pre_home_comment | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_home_comment_moderate
+---------------------------------
+ultrax.pre_home_comment_moderate | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_home_comment_moderate
+ultrax.pre_home_comment_moderate | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_home_docomment
+---------------------------------
+ultrax.pre_home_docomment | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_home_docomment
+ultrax.pre_home_docomment | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_home_doing
+---------------------------------
+ultrax.pre_home_doing | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_home_doing
+ultrax.pre_home_doing | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_home_doing_moderate
+---------------------------------
+ultrax.pre_home_doing_moderate | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_home_doing_moderate
+ultrax.pre_home_doing_moderate | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_home_favorite
+---------------------------------
+ultrax.pre_home_favorite | check | warning | 2 clients are using or haven't closed the table properly
+ultrax.pre_home_favorite | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_home_favorite
+ultrax.pre_home_favorite | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_home_feed
+---------------------------------
+ultrax.pre_home_feed | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_home_feed
+ultrax.pre_home_feed | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_home_feed_app
+---------------------------------
+ultrax.pre_home_feed_app | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_home_feed_app
+ultrax.pre_home_feed_app | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_home_follow
+---------------------------------
+ultrax.pre_home_follow | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_home_follow
+ultrax.pre_home_follow | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_home_follow_feed
+---------------------------------
+ultrax.pre_home_follow_feed | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_home_follow_feed
+ultrax.pre_home_follow_feed | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_home_follow_feed_archiver
+---------------------------------
+ultrax.pre_home_follow_feed_archiver | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_home_follow_feed_archiver
+ultrax.pre_home_follow_feed_archiver | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_home_friend
+---------------------------------
+ultrax.pre_home_friend | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_home_friend
+ultrax.pre_home_friend | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_home_friend_request
+---------------------------------
+ultrax.pre_home_friend_request | check | warning | 2 clients are using or haven't closed the table properly
+ultrax.pre_home_friend_request | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_home_friend_request
+ultrax.pre_home_friend_request | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_home_friendlog
+---------------------------------
+ultrax.pre_home_friendlog | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_home_friendlog
+ultrax.pre_home_friendlog | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_home_notification
+---------------------------------
+ultrax.pre_home_notification | check | warning | 3 clients are using or haven't closed the table properly
+ultrax.pre_home_notification | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_home_notification
+ultrax.pre_home_notification | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_home_pic
+---------------------------------
+ultrax.pre_home_pic | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_home_pic
+ultrax.pre_home_pic | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_home_pic_moderate
+---------------------------------
+ultrax.pre_home_pic_moderate | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_home_pic_moderate
+ultrax.pre_home_pic_moderate | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_home_picfield
+---------------------------------
+ultrax.pre_home_picfield | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_home_picfield
+ultrax.pre_home_picfield | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_home_poke
+---------------------------------
+ultrax.pre_home_poke | check | warning | 1 client is using or hasn't closed the table properly
+ultrax.pre_home_poke | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_home_poke
+ultrax.pre_home_poke | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_home_pokearchive
+---------------------------------
+ultrax.pre_home_pokearchive | check | warning | 1 client is using or hasn't closed the table properly
+ultrax.pre_home_pokearchive | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_home_pokearchive
+ultrax.pre_home_pokearchive | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_home_share
+---------------------------------
+ultrax.pre_home_share | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_home_share
+ultrax.pre_home_share | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_home_share_moderate
+---------------------------------
+ultrax.pre_home_share_moderate | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_home_share_moderate
+ultrax.pre_home_share_moderate | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_home_show
+---------------------------------
+ultrax.pre_home_show | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_home_show
+ultrax.pre_home_show | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_home_specialuser
+---------------------------------
+ultrax.pre_home_specialuser | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_home_specialuser
+ultrax.pre_home_specialuser | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_home_userapp
+---------------------------------
+ultrax.pre_home_userapp | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_home_userapp
+ultrax.pre_home_userapp | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_home_userappfield
+---------------------------------
+ultrax.pre_home_userappfield | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_home_userappfield
+ultrax.pre_home_userappfield | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_home_visitor
+---------------------------------
+ultrax.pre_home_visitor | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_home_visitor
+ultrax.pre_home_visitor | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_mobile_setting
+---------------------------------
+ultrax.pre_mobile_setting | check | warning | 1 client is using or hasn't closed the table properly
+ultrax.pre_mobile_setting | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_mobile_setting
+ultrax.pre_mobile_setting | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_mobile_wechat_authcode
+---------------------------------
+ultrax.pre_mobile_wechat_authcode | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_mobile_wechat_authcode
+ultrax.pre_mobile_wechat_authcode | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_mobile_wechat_masssend
+---------------------------------
+ultrax.pre_mobile_wechat_masssend | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_mobile_wechat_masssend
+ultrax.pre_mobile_wechat_masssend | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_mobile_wechat_resource
+---------------------------------
+ultrax.pre_mobile_wechat_resource | check | warning | 2 clients are using or haven't closed the table properly
+ultrax.pre_mobile_wechat_resource | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_mobile_wechat_resource
+ultrax.pre_mobile_wechat_resource | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_mobile_wsq_threadlist
+---------------------------------
+ultrax.pre_mobile_wsq_threadlist | check | warning | 3 clients are using or haven't closed the table properly
+ultrax.pre_mobile_wsq_threadlist | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_mobile_wsq_threadlist
+ultrax.pre_mobile_wsq_threadlist | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_portal_article_content
+---------------------------------
+ultrax.pre_portal_article_content | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_portal_article_content
+ultrax.pre_portal_article_content | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_portal_article_count
+---------------------------------
+ultrax.pre_portal_article_count | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_portal_article_count
+ultrax.pre_portal_article_count | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_portal_article_moderate
+---------------------------------
+ultrax.pre_portal_article_moderate | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_portal_article_moderate
+ultrax.pre_portal_article_moderate | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_portal_article_related
+---------------------------------
+ultrax.pre_portal_article_related | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_portal_article_related
+ultrax.pre_portal_article_related | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_portal_article_title
+---------------------------------
+ultrax.pre_portal_article_title | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_portal_article_title
+ultrax.pre_portal_article_title | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_portal_article_trash
+---------------------------------
+ultrax.pre_portal_article_trash | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_portal_article_trash
+ultrax.pre_portal_article_trash | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_portal_attachment
+---------------------------------
+ultrax.pre_portal_attachment | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_portal_attachment
+ultrax.pre_portal_attachment | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_portal_category
+---------------------------------
+ultrax.pre_portal_category | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_portal_category
+ultrax.pre_portal_category | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_portal_category_permission
+---------------------------------
+ultrax.pre_portal_category_permission | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_portal_category_permission
+ultrax.pre_portal_category_permission | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_portal_comment
+---------------------------------
+ultrax.pre_portal_comment | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_portal_comment
+ultrax.pre_portal_comment | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_portal_comment_moderate
+---------------------------------
+ultrax.pre_portal_comment_moderate | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_portal_comment_moderate
+ultrax.pre_portal_comment_moderate | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_portal_rsscache
+---------------------------------
+ultrax.pre_portal_rsscache | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_portal_rsscache
+ultrax.pre_portal_rsscache | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_portal_topic
+---------------------------------
+ultrax.pre_portal_topic | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_portal_topic
+ultrax.pre_portal_topic | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_portal_topic_pic
+---------------------------------
+ultrax.pre_portal_topic_pic | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_portal_topic_pic
+ultrax.pre_portal_topic_pic | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_security_evilpost
+---------------------------------
+ultrax.pre_security_evilpost | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_security_evilpost
+ultrax.pre_security_evilpost | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_security_eviluser
+---------------------------------
+ultrax.pre_security_eviluser | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_security_eviluser
+ultrax.pre_security_eviluser | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_security_failedlog
+---------------------------------
+ultrax.pre_security_failedlog | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_security_failedlog
+ultrax.pre_security_failedlog | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_ucenter_admins
+---------------------------------
+ultrax.pre_ucenter_admins | check | warning | 2 clients are using or haven't closed the table properly
+ultrax.pre_ucenter_admins | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_ucenter_admins
+ultrax.pre_ucenter_admins | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_ucenter_applications
+---------------------------------
+ultrax.pre_ucenter_applications | check | warning | 1 client is using or hasn't closed the table properly
+ultrax.pre_ucenter_applications | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_ucenter_applications
+ultrax.pre_ucenter_applications | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_ucenter_badwords
+---------------------------------
+ultrax.pre_ucenter_badwords | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_ucenter_badwords
+ultrax.pre_ucenter_badwords | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_ucenter_domains
+---------------------------------
+ultrax.pre_ucenter_domains | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_ucenter_domains
+ultrax.pre_ucenter_domains | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_ucenter_failedlogins
+---------------------------------
+ultrax.pre_ucenter_failedlogins | check | warning | 3 clients are using or haven't closed the table properly
+ultrax.pre_ucenter_failedlogins | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_ucenter_failedlogins
+ultrax.pre_ucenter_failedlogins | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_ucenter_feeds
+---------------------------------
+ultrax.pre_ucenter_feeds | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_ucenter_feeds
+ultrax.pre_ucenter_feeds | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_ucenter_friends
+---------------------------------
+ultrax.pre_ucenter_friends | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_ucenter_friends
+ultrax.pre_ucenter_friends | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_ucenter_mailqueue
+---------------------------------
+ultrax.pre_ucenter_mailqueue | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_ucenter_mailqueue
+ultrax.pre_ucenter_mailqueue | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_ucenter_memberfields
+---------------------------------
+ultrax.pre_ucenter_memberfields | check | warning | 3 clients are using or haven't closed the table properly
+ultrax.pre_ucenter_memberfields | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_ucenter_memberfields
+ultrax.pre_ucenter_memberfields | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_ucenter_members
+---------------------------------
+ultrax.pre_ucenter_members | check | warning | 3 clients are using or haven't closed the table properly
+ultrax.pre_ucenter_members | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_ucenter_members
+ultrax.pre_ucenter_members | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_ucenter_mergemembers
+---------------------------------
+ultrax.pre_ucenter_mergemembers | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_ucenter_mergemembers
+ultrax.pre_ucenter_mergemembers | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_ucenter_newpm
+---------------------------------
+ultrax.pre_ucenter_newpm | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_ucenter_newpm
+ultrax.pre_ucenter_newpm | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_ucenter_notelist
+---------------------------------
+ultrax.pre_ucenter_notelist | check | warning | 1 client is using or hasn't closed the table properly
+ultrax.pre_ucenter_notelist | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_ucenter_notelist
+ultrax.pre_ucenter_notelist | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_ucenter_pm_indexes
+---------------------------------
+ultrax.pre_ucenter_pm_indexes | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_ucenter_pm_indexes
+ultrax.pre_ucenter_pm_indexes | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_ucenter_pm_lists
+---------------------------------
+ultrax.pre_ucenter_pm_lists | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_ucenter_pm_lists
+ultrax.pre_ucenter_pm_lists | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_ucenter_pm_members
+---------------------------------
+ultrax.pre_ucenter_pm_members | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_ucenter_pm_members
+ultrax.pre_ucenter_pm_members | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_ucenter_pm_messages_0
+---------------------------------
+ultrax.pre_ucenter_pm_messages_0 | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_ucenter_pm_messages_0
+ultrax.pre_ucenter_pm_messages_0 | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_ucenter_pm_messages_1
+---------------------------------
+ultrax.pre_ucenter_pm_messages_1 | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_ucenter_pm_messages_1
+ultrax.pre_ucenter_pm_messages_1 | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_ucenter_pm_messages_2
+---------------------------------
+ultrax.pre_ucenter_pm_messages_2 | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_ucenter_pm_messages_2
+ultrax.pre_ucenter_pm_messages_2 | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_ucenter_pm_messages_3
+---------------------------------
+ultrax.pre_ucenter_pm_messages_3 | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_ucenter_pm_messages_3
+ultrax.pre_ucenter_pm_messages_3 | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_ucenter_pm_messages_4
+---------------------------------
+ultrax.pre_ucenter_pm_messages_4 | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_ucenter_pm_messages_4
+ultrax.pre_ucenter_pm_messages_4 | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_ucenter_pm_messages_5
+---------------------------------
+ultrax.pre_ucenter_pm_messages_5 | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_ucenter_pm_messages_5
+ultrax.pre_ucenter_pm_messages_5 | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_ucenter_pm_messages_6
+---------------------------------
+ultrax.pre_ucenter_pm_messages_6 | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_ucenter_pm_messages_6
+ultrax.pre_ucenter_pm_messages_6 | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_ucenter_pm_messages_7
+---------------------------------
+ultrax.pre_ucenter_pm_messages_7 | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_ucenter_pm_messages_7
+ultrax.pre_ucenter_pm_messages_7 | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_ucenter_pm_messages_8
+---------------------------------
+ultrax.pre_ucenter_pm_messages_8 | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_ucenter_pm_messages_8
+ultrax.pre_ucenter_pm_messages_8 | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_ucenter_pm_messages_9
+---------------------------------
+ultrax.pre_ucenter_pm_messages_9 | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_ucenter_pm_messages_9
+ultrax.pre_ucenter_pm_messages_9 | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_ucenter_protectedmembers
+---------------------------------
+ultrax.pre_ucenter_protectedmembers | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_ucenter_protectedmembers
+ultrax.pre_ucenter_protectedmembers | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_ucenter_settings
+---------------------------------
+ultrax.pre_ucenter_settings | check | warning | 1 client is using or hasn't closed the table properly
+ultrax.pre_ucenter_settings | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_ucenter_settings
+ultrax.pre_ucenter_settings | optimize | status | OK
+
+
+>>>>>>>>>>>>>Checking Table pre_ucenter_sqlcache
+---------------------------------
+ultrax.pre_ucenter_sqlcache | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_ucenter_sqlcache
+ultrax.pre_ucenter_sqlcache | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_ucenter_tags
+---------------------------------
+ultrax.pre_ucenter_tags | check | status | OK
+>>>>>>>>>>>>>Optimizing Table pre_ucenter_tags
+ultrax.pre_ucenter_tags | optimize | status | Table is already up to date
+
+
+>>>>>>>>>>>>>Checking Table pre_ucenter_vars
+---------------------------------
+ultrax.pre_ucenter_vars | check | note | The storage engine for the table doesn't support check
+>>>>>>>>>>>>>Optimizing Table pre_ucenter_vars
+ultrax.pre_ucenter_vars | optimize | note | The storage engine for the table doesn't support optimize
+

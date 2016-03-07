@@ -1,0 +1,109 @@
+<!--{template common/header}-->
+<!--[name]DIY配色学院[/name]-->
+<!--{eval $list = array();}-->
+<!--{eval $wheresql = category_get_wheresql($cat);}-->
+<!--{eval $list = category_get_list($cat, $wheresql, $page);}-->
+<style id="diy_style" type="text/css"></style>
+<link href="$_G['style']['styleimgdir']/css/tt_portal.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="$_G['style']['styleimgdir']/js/jquery.min.js"></script>
+<script>jQuery.noConflict();</script>
+<script type="text/javascript" src="$_G['style']['styleimgdir']/js/comm.js"></script>
+
+<!-- main start -->
+<div class="main tt_pindao">
+<div id="pt" class="bm cl">
+	<div class="z">
+		<a href="./" class="nvhm" title="{lang homepage}">$_G[setting][bbname]</a> <em>&rsaquo;</em>
+		<a href="$_G[setting][navs][1][filename]">{lang portal}</a> <em>&rsaquo;</em>
+		<!--{loop $cat[ups] $value}--> <a href="{$portalcategory[$value['catid']]['caturl']}">$value[catname]</a><em>&rsaquo;</em><!--{/loop}-->
+		$cat[catname]
+	</div>
+</div>
+
+<div class="tt_listtitle">
+	<h1 class="title-l">$cat[catname]</h1>
+    <!--{if $cat[others]}-->
+		<div class="nav-r">
+					<!--{loop $cat[others] $value}-->
+					<a href="{$portalcategory[$value['catid']]['caturl']}">$value[catname]</a> | 
+					<!--{/loop}-->
+        </div>		
+	<!--{/if}-->
+</div>
+
+<!--频道四图推荐-->
+<div class="all">
+	<ul class="listTop">
+    	<!--[diy=tt_pindao_situ]--><div id="tt_pindao_situ" class="area"></div><!--[/diy]-->
+	</ul>
+</div>
+
+<div class="content" style="display:inline-block; width:960px;">
+<!--左侧新闻-->
+<div class="left box">  
+    <ul class="news" style=" margin-top:-25px">
+    	<!--[diy=tt_pindao_wzlist]--><div id="tt_pindao_wzlist" class="area"></div><!--[/diy]-->
+    </ul>
+</div>
+
+<div class="right">
+
+<!--论坛版块入口-->
+<div class="tt_forumlink br4"><a href="forum.php" target="_blank">进入论坛版块<i>&gt;</i></a></div>
+
+<!--推荐板块-->
+		<div class="box"> 
+			<h4><strong>推荐板块</strong></h4>
+			<ul class="tt_portal_tjbk">
+            	<!--[diy=tt_pindao_tjbk]--><div id="tt_pindao_tjbk" class="area"></div><!--[/diy]-->
+			</ul>       
+		</div> 
+    <!--编辑推荐-->
+	<div class="editorChoice box">
+		<h4><strong>编辑推荐</strong>                    
+        <a class="r" href="forum.php" target="_blank">更多&gt;</a></h4>
+    	<!--[diy=tt_pindao_bjtj]--><div id="tt_pindao_bjtj" class="area"></div><!--[/diy]-->
+	</div>
+	<!--随手拍-->
+	<div class="picShow box">
+    	<h4><strong>随手拍</strong><a class="r" href="forum.php" target="_blank">更多&gt;</a></h4>
+        <!--[diy=tt_pindao_ssp]--><div id="tt_pindao_ssp" class="area"></div><!--[/diy]-->
+    </div>           
+    <!--热门活动-->
+	<div class="academy box">
+    	<h4><strong>热门活动</strong><a class="r" href="forum.php" target="_blank">更多&gt;</a></h4>
+        <!--[diy=tt_pindao_xmxy]--><div id="tt_pindao_xmxy" class="area"></div><!--[/diy]-->
+    </div>
+	<!--酷玩推荐-->
+	<div class="recommend box">
+		<h4><strong>酷玩推荐</strong><a class="r" href="forum.php" target="_blank">更多&gt;</a></h4>
+        <!--[diy=tt_pindao_kwtj]--><div id="tt_pindao_kwtj" class="area"></div><!--[/diy]-->
+	</div> 
+	<!--明星用户-->
+	<div class="star box">
+		<h4><strong>明星用户</strong><a class="r" href="forum.php" target="_blank">更多&gt;</a></h4>
+		<table border="0" style="margin-bottom:15px; margin-top:10px" width="100%">
+			<tbody>
+				<tr>
+					<td><!--[diy=tt_pindao_ad3]--><div id="tt_pindao_ad3" class="area"></div><!--[/diy]--></td>
+					<td><!--[diy=tt_pindao_ad4]--><div id="tt_pindao_ad4" class="area"></div><!--[/diy]--></td>
+				</tr>
+			</tbody>
+		</table>		
+		<!--[diy=tt_pindao_mxyh]--><div id="tt_pindao_mxyh" class="area"></div><!--[/diy]-->
+	</div>
+    
+</div>
+       
+</div>
+
+
+
+</div>
+<!-- main end -->
+
+
+
+
+<script src="misc.php?mod=diyhelp&action=get&type=index&diy=yes&r={echo random(4)}" type="text/javascript"></script>
+<!--{template common/footer}-->

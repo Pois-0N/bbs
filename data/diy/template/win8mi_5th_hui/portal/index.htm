@@ -1,0 +1,61 @@
+<!--{template common/header}-->
+<link rel="stylesheet" type="text/css" id="time_diy" href="template/win8mi_5th_hui/src/reset.css" />
+<link rel="stylesheet" type="text/css" id="time_diy" href="template/win8mi_5th_hui/src/index.css" />
+<link rel="stylesheet" type="text/css" id="time_diy" href="template/win8mi_5th_hui/src/portaldiy.css?{VERHASH}" />
+<style id="diy_style" type="text/css"></style>
+<script src="template/win8mi_5th_hui/src/js/superslide.2.1.js" type="text/javascript"></script>
+<div id="main" class="index">
+  <div class="wp cl" style="height: 440px; overflow: hidden;">
+    <div id="banner" class="cl">
+      <div class="left_side">
+         <!--[diy=diy1]--><div id="diy1" class="area"><div id="framenhtrIG" class="cl_frame_bm frame move-span cl frame-1"><div id="framenhtrIG_left" class="column frame-1-c"><div id="framenhtrIG_left_temp" class="move-span temp"></div><!--{block/141}--></div></div></div><!--[/diy]-->
+      </div>
+      <div class="right_side">
+         <!--[diy=diy2]--><div id="diy2" class="area"><div id="frames6z556" class="cl_frame_bm frame move-span cl frame-1"><div id="frames6z556_left" class="column frame-1-c"><div id="frames6z556_left_temp" class="move-span temp"></div><!--{block/142}--></div></div></div><!--[/diy]-->
+      </div>
+    </div>
+    <div id="xiandai_tips" class="cl">
+       <!--[diy=diy3]--><div id="diy3" class="area"><div id="frameLZK32O" class="frame move-span cl frame-1"><div id="frameLZK32O_left" class="column frame-1-c"><div id="frameLZK32O_left_temp" class="move-span temp"></div><!--{block/143}--></div></div></div><!--[/diy]-->
+    </div>
+    <script>
+	jQuery.noConflict();
+        jQuery(document).ready(function(e) {
+            var timer = setInterval("tips_scroll()",3500);
+            jQuery("#xiandai_tips dd:gt(4)").css("height","0");
+            jQuery("#xiandai_tips").bind("mouseover",function(){
+                clearInterval(timer)
+            });
+            jQuery("#xiandai_tips").bind("mouseout",function(){
+                timer = setInterval("tips_scroll()",3500);
+            });
+        });
+        //热门新闻滚动
+        function tips_scroll(){
+            var _text = "<dd>" + jQuery("#xiandai_tips dd:last").html() + "</dd>"
+            jQuery("#xiandai_tips dt").after(_text);
+            jQuery("#xiandai_tips dd").eq(0).css("height","auto");
+            var _height = jQuery("#xiandai_tips dd").eq(0).height();
+            jQuery("#xiandai_tips dd").eq(0).animate({"height":0},0,function(){
+                jQuery(this).animate({"height":_height},1000)
+                jQuery("#xiandai_tips dd").eq(5).animate({"height":0},1000,function(){
+                    jQuery("#xiandai_tips dd").last().remove();
+                })
+            })
+
+        }
+  </script>
+  </div>
+  <div class="wp cl" style="position: relative; margin: 20px 0 0 0;"> 
+    <div id="label">
+       <!--[diy=diy_label]--><div id="diy_label" class="area"><div id="frameH6O8LY" class="cl_frame_bm frame move-span cl frame-1"><div id="frameH6O8LY_left" class="column frame-1-c"><div id="frameH6O8LY_left_temp" class="move-span temp"></div><!--{block/138}--></div></div></div><!--[/diy]-->
+    </div>
+    <div id="news">
+       <!--[diy=diy5]--><div id="diy5" class="area"><div id="framez4qd8k" class="cl_frame_bm frame move-span cl frame-1"><div id="framez4qd8k_left" class="column frame-1-c"><div id="framez4qd8k_left_temp" class="move-span temp"></div><!--{block/139}--></div></div></div><!--[/diy]-->
+    </div>
+    <div id="adv" class="cl">
+       <!--[diy=diy6]--><div id="diy6" class="area"><div id="frameK4p3UD" class="cl_frame_bm frame move-span cl frame-1"><div id="frameK4p3UD_left" class="column frame-1-c"><div id="frameK4p3UD_left_temp" class="move-span temp"></div><!--{block/140}--></div></div></div><!--[/diy]-->
+    </div>    
+  </div>
+</div>
+ 
+<!--{template common/footer}-->

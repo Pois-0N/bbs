@@ -1,0 +1,72 @@
+@charset "gbk";
+/****************首页*****************/
+/*banner*/
+a:hover { text-decoration: none}
+#banner { float: left; width: 856px; height: 440px; margin-top: 0}
+#banner .left_side { position: relative; float: left; width: 640px; height: 440px; overflow: hidden}
+#banner .left_side h3 { position: absolute; bottom: 0; left: 0; right: 0; width: 640px; height: 76px; font-size: 16px; text-align:center; line-height:76px; color: #FFFFFF; background: rgba(0,0,0,0.4); background: transparent\9;zoom:1\8; /* required for the filters */
+-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#00000000, endColorstr=#00000000)";
+ /* IE8 */filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#60000000, endColorstr=#60000000); /* IE5.5-7 */}
+#banner .right_side { float: left; width: 215px; height: 440px; font-size: 15px; overflow: hidden}
+#banner .right_side a { display:inline-block; width:183px; height:36px; padding:37px 16px; float:left; overflow:hidden; line-height: 18px}
+/*标签*/
+#label { float: left; width: 88px; height: auto; margin: 6px 0 0 0}
+#label li { margin-bottom: 10px}
+#label a { display:block; width:88px; height:30px; line-height:30px; text-align:center; font-size:13px;}
+/*热门要闻*/
+#news { float: left; margin-left: 150px; _margin-left: 115px; display: block; width: 640px; margin-top: 0; padding-bottom: 60px}
+#news .tits { height: 45px; overflow: hidden}
+#news h2 { float: left; font-size: 26px; color: #1abc9c; margin-bottom: 0}
+#news .tits p { border-top: 1px dotted #1abc9c; display: inline-block; width: 490px; float: right; padding: 0; margin: 16px 18px 0 0}
+#news .contents { background-color:#c7d0d1; margin:15px auto 0;}
+#news .contents .article { background-color:#fff; padding:10px 31px 10px 31px; position:relative; top:-5px; left: -5px}
+#news .contents .article .time { display:block; text-align:center; position:absolute; padding:10px; height:44px; width:44px; top:0; left:-64px; _left: -95px; font:10px/10px "Arial"; overflow: hidden}
+#news .contents .article .time b { font-size:36px; height: 36px; line-height:36px; display:block; overflow: hidden}
+#news .contents .article .kind { display:block; text-align:center; position:absolute; width:64px; left:-64px; _left: -95px; height:30px; font-size:13px; line-height:30px; top:70px; overflow: hidden}
+#news .contents .article .header {font-size:24px; width:100%; line-height:47px; color:#6c6c6c;  margin-bottom:8px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap}
+#news .contents .article .header a { padding-bottom:5px;padding-right:40px;border-bottom:1px solid #e8ecef} 
+#news .contents .article .header a:hover { color: #1cbd9d}
+#news .contents .article .section { height: 160px; margin: 5px 0 10px 0}
+#news .contents .article .section .pic_left { float: left; width: 290px; height: 160px; margin: 0 20px 0 0; overflow: hidden}
+#news .contents .article .section .pic_left img { width: 100%}
+#news .contents .article .section p { text-indent: 26px; padding-top: 0; font:13px/24px "微软雅黑"; color: #666666}
+#news .contents .article .footers{ font-size: 0; min-height: 40px}
+#news .contents .article .footers  a { display:inline-block;width:88px !important; height:30px !important; margin:5px 5px 5px 0; line-height:30px; text-align:center; font-size:13px;}
+#news .contents .article .footers span{ color:#95a5a5; float:right; font-size:13px; margin-left:150px; margin-top:15px;}
+#news .contents .article .footers section{ max-width:300px; max-height:80px;overflow:hidden}
+#news a.content_adv img{ width:100%;position:relative; left:-5px; top:-5px;}
+#news a.content_adv{ margin:15px 0 0 0; display:block; width:645px;}
+/*分页*/
+#news .contents#page{ background-color:transparent; height:34px; text-align:center;}
+#news .contents#page >span{ display:inline-block; width:34px; height:34px; border-radius:5px;-webkit-border-radius:5px; font:13px/34px "微软雅黑"; cursor:pointer;}
+#news .contents#page .long_btn,
+#news .contents#page .long_btn{ float:right; height:34px; width:115px; margin-right:40px}
+#news .contents#page .cool_green:hover{ background-color:#08a283}
+#news .contents#page .stop_grey{ cursor:default;}
+#news .contents#page .long_btn:first-child{ float:left; margin-right:0; margin-left:40px;}
+
+/*专题页*/
+.subject #news{ margin-left:64px; float:left;}
+.subject aside.right{ float:right; max-width:320px;}
+.subject #atlas{ float:right; width:300px;}
+.subject #atlas >dt{ font-size:22px; color:#1abc9c; padding:10px 0;}
+.subject #atlas >dt p{ display:inline-block; width:200px; border-bottom:1px dotted #1abc9c; margin-top:16px; float:right;}
+.subject #atlas >dd{ position:relative; margin: 0 5px 20px; line-height:0;; overflow:hidden}
+.subject #atlas >dd  img{ width:100%;}
+.subject #atlas >dd  span{ position:absolute; bottom:-60px; left:0; right:0; text-align:center; color:#fff; font-size:14px; line-height:14px;padding:15px 10px;
+-webkit-transition:all ease-in .5s;transition:all ease-in .5s;
+background: rgba(0,0,0,0.4);
+background: transparent\9;zoom:1\8; /* required for the filters */
+-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#00000000, endColorstr=#00000000)";
+ /* IE8 */filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#60000000, endColorstr=#60000000); /* IE5.5-7 */}
+ .subject #atlas >dd:hover  span{ bottom:0;}
+.subject #label{ position:static; float:right; width:295px; font-size:0;}
+.subject #label li{ display:inline-block; margin-right:10px;}
+.subject #banner{ height:auto; position:relative;}
+.subject #banner div { width:100%; float:none;}
+.subject #banner div a{ display:block;}
+.subject #banner div  img{ width:100%; max-height:310px;}
+
+/*专题页*/
+#top_adv{ float:right; width:304px; height:64px;}
+/**********************中屏*************************/

@@ -1,0 +1,110 @@
+@charset "gbk";
+/*
+YUI 3.17.2 (build 9c3c78e)
+Copyright 2014 Yahoo! Inc. All rights reserved.
+Licensed under the BSD License.
+*/
+html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}address,caption,cite,code,dfn,em,th,var{font-style:normal;font-weight:normal}ol,ul{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}q:before,q:after{content:''}abbr,acronym{border:0;font-variant:normal}sup{vertical-align:text-top}sub{vertical-align:text-bottom}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;*font-size:100%}legend{color:#000}#yui3-css-stamp.cssreset{display:none}a{color:inherit; text-decoration:none;}ul,nav{ list-style:none;}
+/****************************通用*****************************/
+#wrap .net_blue{ background-color:#67b0d1;}
+#wrap .act_yellow{ background-color:#edb56a;}
+#wrap .agr_green{ background-color:#75ac56;}
+#wrap .car_black{background-color:#393d40}
+#wrap .wed_red{ background-color:#e77252;}
+#wrap .cool_green{background-color:#1abc9c;}
+#wrap .stop_grey{ background-color:#95a5a5;}
+
+#wrap .net_blue:hover{ background-color:#86c0db;}
+#wrap .act_yellow:hover{ background-color:#efc48b;}
+#wrap .agr_green:hover{ background-color:#8ab86f;}
+#wrap .car_black:hover{background-color:#626262}
+#wrap .wed_red:hover{ background-color:#ec896e;}
+#wrap .net_blue,
+#wrap .act_yellow,
+#wrap .agr_green,
+#wrap .car_black,
+#wrap .wed_red,
+#wrap .cool_green,
+#wrap .stop_grey{ color:#fff;}
+
+.clear{ clear:both; height:0; width:0; visibility:hidden; padding:0; margin:0;}
+/*下拉框*/
+#wrap .drop_down{display:inline-block; position:relative; line-height:40px;cursor:pointer; text-indent:10px; border:1px solid #dadada}
+#wrap .drop_title{ display:block; background:url(drop_down.jpg) repeat-x top right;}
+#wrap .drop_body{ position:absolute; line-height:30px; width:100%; height:0; overflow:hidden; border:1px solid #dadada; border-top:0;}
+#wrap .drop_down.click .drop_body{ height:auto; max-height:150px; overflow:auto;}
+#wrap .drop_body > li{ color:#464646; background-color:#fff;border-top:1px solid #dadada;line-height: 37px}
+#wrap .drop_body > li:hover{ color:#fff; background-color:#1cbd9d;}
+
+body{ width:100%; height:100%; background-color:#fff;}
+/*正文头部导航*/
+#content_nav{ height:64px; width:855px; background-color:#1dbd9d; font:16px/64px "微软雅黑"}
+#content_nav > li{ float:left; display:inline;}
+#content_nav > li >a{ display:inline-block; height:100%; padding:0 18px; color:#fff;}
+#content_nav > li >a:hover{ background-color:#4acab1;}
+#content_nav > li.search{ float:right; margin:12px; background-color:#61d1bb; height:40px; line-height:40px; font-size:14px;}
+#content_nav > li.search > input{ background-color:transparent; width:200px; outline:0; border:0; color:#fff; height:16px; padding:12px; line-height:18px;}
+#content_nav > li.search > a{ float:right; background:url(search.png) no-repeat center;}
+#content_nav > li.search > input::-webkit-input-placeholder{ color:#fff;}
+/*头部*/
+#header{ width:100%; position:fixed; top:0; background-color:#fff; font:12px "微软雅黑";}
+#header > section{ margin:0 auto; height:64px; position:relative;}
+#header > section > #logo{ float:left; display:inline; width:126px; height:100%;; text-indent:-9999px;margin-right:50px; background:url(logo_header.png) no-repeat center;}
+#header > section > h1{display:block; position:absolute; left:180px;}
+#header > section > h1 > img{ height:60px; margin-top:2px;}
+#header > section > nav#top_nav{ display:none;}
+/*搜索*/
+#header > section > div#search{ display:none; float:left; height:40px;background-color:#f0f0f0; margin-top:12px; margin-left:20px;}
+#header > section > div#search > input{ border:0;outline:0; height:16px;padding:12px 16px;background-color:transparent; font-size:16px; line-height:16px;}
+#header > section > div#search > a{ float:right; display:inline; height:100%; width:40px; background:url(search_top.png) no-repeat center; cursor:pointer;}
+/*主导航*/
+nav#top_nav  li{float:left; display:inline;}
+nav#top_nav  li > a{ display:block;height:100%; font:16px/64px "微软雅黑"; color:#1abc9c; padding:0 10px;}
+nav#top_nav  li:hover > a{ color:#0b8f75;}
+#function { float:right;}
+#function > li{ float:right; height:100%; display:inline; border-right:1px solid #f7f7f7; color:#c1c1c1;}
+#function > li + li{border-left:1px solid #f7f7f7;}
+#function > li > a{ padding-top:40px; height:24px; display:block; line-height:26px; width:62px; text-align:center; background:url(uoload.png) no-repeat  center 12px;}
+#function > li > a:hover{ background-image:url(uoload-h.png); color:#404040;}
+
+
+#function > li.icon_coo > a{ background-image:url(cooprater.png); background-position-y:15px;}
+#function > li.icon_coo > a:hover{ background-image:url(cooprater-h.png)}
+
+#function > li.icon_manage > a{ background-image:url(manage.png); background-position-y:11px; color:#89ba00;}
+#function > li.icon_manage > a:hover{ background-image:url(manage-h.png); color:#4d6800;}
+/*滚动之后样式*/
+#header.scroll{ border-bottom:4px solid #1abc9c;}
+#header.scroll > section > h1{ display:none;}
+#header.scroll > section > nav#top_nav { display: block}
+#header.scroll > section >  div#search { display: inline}
+#scroll_top.scroll { visibility: visible; opacity: 1}
+/*主体*/
+#main { margin: 0 auto; padding: 20px 0 0 0}
+
+/*******************************页面正文*************************/
+/*会展快讯*/
+#xiandai_tips{ float:right; padding:13px; background-color:#fff; border-bottom:8px solid #c3c4c5; font:13px/18px "微软雅黑"; width:278px; min-height: 368px; overflow: hidden}
+#xiandai_tips h3{ height:28px; width:77px;  display:block; background-color:#1abc9c; color:#fff;  font-size:14px;line-height:28px;text-align:center; cursor: default}
+#xiandai_tips dl dt{ height:40px; line-height:50px; color:#9a9a9a; padding:10px 0 10px 17px; background:url(tips_top.png) no-repeat  left 30px}
+#xiandai_tips dl dt a{ float:right; color:#666; display:block;}
+#xiandai_tips dl dd{ padding:0 10px 0 17px; height:auto; overflow:hidden;background:url(tips_title.png) repeat-y left -32px ; cursor:pointer; -webkit-transition:all ease .5s; transition:all ease .5s}
+#xiandai_tips dl dd a{ display:block; margin:10px 0}
+#xiandai_tips dl dd a p{ width:100%; overflow:hidden; white-space:nowrap; text-overflow:ellipsis}
+#xiandai_tips dl dd span { color:#999; display:inline-block; margin-left:20px}
+#xiandai_tips dl dd a:hover { color: #FFFFFF; text-decoration: none}
+#xiandai_tips dl dd:hover{ background-color:#1abc9c; color: #FFFFFF}
+#xiandai_tips dl dd:hover span{ color:#1abc9c;transition:all ease .5s；-webkit-transition:all ease .5s}
+/*adv*/
+#adv { float: right; width: 192px; height: 100%; font-size:12px; line-height:26px;  padding-left: 40px; padding-right:64px; overflow: hidden}
+#adv dl { position: relative; float: left; border-left: 2px solid #bec3c7; width: 192px; height: 3450px; padding-left: 28px; padding-top: 116px; margin: 70px 0 0 0}
+#adv dl .top_tit { position:absolute; left:0px; top:-3px}
+#adv dt { position: absolute; top:-70px; background-color: #FFFFFF; width: 162px; height: 186px}
+.ie6 #adv dt, .ie7 #adv dt { margin: 0 0 20px 0}
+#adv dt img:first-child { display: block; width: 162px; height: 159px; overflow: hidden}
+#adv dt.scroll { position: fixed; top: 65px}
+#adv dd { width: 162px; height: 156px; line-height:0; margin-top: 20px}
+#adv dd a img{ width: 162px}
+#adv p { padding: 0 0 0 3px; margin-top: 0}
+#adv > *{ position: relative} 
+#adv .adv_title { position: absolute; left: -41px; bottom: 40px}

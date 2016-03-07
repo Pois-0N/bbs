@@ -1,0 +1,101 @@
+<!--{template common/header}-->
+<!--[name]win8mi_5th_hui图文资讯列表页[/name]-->
+<!--{eval $list = array();}-->
+<!--{eval $wheresql = category_get_wheresql($cat);}-->
+<!--{eval $list = category_get_list($cat, $wheresql, $page);}-->
+<link rel="stylesheet" type="text/css" href="template/win8mi_5th_hui/src/list.css" />
+<script src="template/win8mi_5th_hui/src/js/superslide.2.1.js" type="text/javascript"></script>
+<div id="pt" class="bm cl" style="margin: 15px 0 20px 0;">
+  <div class="z"> <a href="./" class="nvhm" title="{lang homepage}">$_G[setting][bbname]</a> <em>&rsaquo;</em> <a href="$_G[setting][navs][1][filename]">{lang nav_index}</a> <em>&rsaquo;</em> 
+    <!--{loop $cat[ups] $value}--> 
+    <a href="{echo getportalcategoryurl($value[catid])}">$value[catname]</a><em>&rsaquo;</em> 
+    <!--{/loop}--> 
+    <a href="{echo getportalcategoryurl($cat[catid])}">$cat[catname]</a> <em>&rsaquo;</em> {lang view_content} </div>
+</div>
+<!--{ad/text/wp a_t}-->
+<style id="diy_style" type="text/css">
+</style>
+<div class="wp"> 
+  <!--[diy=diy1]-->
+  <div id="diy1" class="area"></div>
+  <!--[/diy]--> 
+</div>
+<div id="ct" class="ct2 wp cl">
+  <div class="mn"> 
+    <!--{ad/articlelist/mbm hm/1}--><!--{ad/articlelist/mbm hm/2}--> 
+    <!--[diy=listcontenttop]-->
+    <div id="listcontenttop" class="area"></div>
+    <!--[/diy]-->
+    <div style="margin-bottom: 0;">
+      <div class="tit02 cl" style="height: 30px; padding: 15px 15px 5px 15px; margin: 0; border: 0;"> 
+        <!--{if $_G[setting][rssstatus] && !$_GET['archiveid']}--><a href="portal.php?mod=rss&catid=$cat[catid]" class="y rss" target="_blank" title="RSS">{lang rss_subscribe_this}</a><!--{/if}--> 
+        <!--{if ($_G['group']['allowpostarticle'] || $_G['group']['allowmanagearticle'] || $categoryperm[$catid]['allowmanage'] || $categoryperm[$catid]['allowpublish']) && empty($cat['disallowpublish'])}--> 
+        <a href="portal.php?mod=portalcp&ac=article&catid=$cat[catid]" class="y addnew">{lang article_publish}</a> 
+        <!--{/if}-->
+        <h3 style="float: left; padding: 3px 13px; margin-bottom: 10px; font-size: 16px; color: #FFFFFF; background: #1DBD9D;">$cat[catname]</h3>
+      <!--{if $cat[subs]}-->
+      <div style="float: left; padding: 7px 0 0 15px;" class="cl">
+      <h3 style="float: left; font-size: 13px; padding: 0 5px 0 0;">{lang sub_category}：</h3>
+        <!--{eval $i = 1;}--> 
+        <!--{loop $cat[subs] $value}--> 
+        <!--{if $i != 1}--><!--{/if}--><a href="{$portalcategory[$value['catid']]['caturl']}" class="cats">$value[catname]</a><!--{eval $i--;}--> 
+        <!--{/loop}--> 
+      </div>
+      <!--{/if}-->
+      </div>
+      <div class="bm_c cl" style="padding: 0;"> 
+        <!--{loop $list['list'] $value}--> 
+        <!--{eval $highlight = article_title_style($value);}--> 
+        <!--{eval $article_url = fetch_article_url($value);}-->
+        <div class="cl" style="float: left; margin: 0; border: 0;">
+        <div class="news_inner cl">
+          <div class="newspic01 animated fadeInUp" style="position: relative;"> 
+            <!--{if $value[pic]}--> 
+            <a href="$article_url" target="_blank"><img src="$value[pic]" alt="$value[title]" width="240" style="display: inline;"/></a><a href="$article_url" title="$value[title]" class="coverup"></a> 
+            <!--{else}-->
+            <div style="float: left; width: 238px; height: 158px; border: 1px solid #DDDDDD; margin: 0; padding: 0; background: url(template/win8mi_5th_hui/src/nopic2.png) no-repeat center center;"></div>
+            <!--{/if}--> 
+          </div>
+          <dl>
+            <dt><a href="$article_url" target="_blank" class="xi2" $highlight>$value[title]</a> <!--{if $value[status] == 1}-->({lang moderate_need})<!--{/if}--></dt>
+            <dd class="text">$value[summary]</dd>
+          </dl>
+        </div>
+        <div class="info_bottom">
+           <div class="z">
+           <p style="float: left; width: 105px; font-style: italic; color: #999999;">$value[dateline]</p>
+           <em style="float: left; padding-left: 13px; margin-left: 10px; color: #666666; font-weight: 400; background: url(template/win8mi_5th_hui/src/points.png) no-repeat left 5px;"> $value[catname] </em>
+           </div>
+           <div class="y">
+              <a href="home.php?mod=space&uid=$comment[authorid]" style="color: #666666;"><span style="float: right; font-family: 'NSimSun'";>$value[username]</span><i></i></a>
+           </div>           
+        </div>
+        </div>
+        <!--{/loop}--> 
+      </div>
+      <!--[diy=listloopbottom]-->
+      <div id="listloopbottom" class="area"></div>
+      <!--[/diy]--> 
+    </div>
+    <!--{ad/articlelist/mbm hm/3}--><!--{ad/articlelist/mbm hm/4}--> 
+    <!--{if $list['multi']}-->
+    <div class="pgs cl">{$list['multi']}</div>
+    <!--{/if}--> 
+    
+    <!--[diy=diycontentbottom]-->
+    <div id="diycontentbottom" class="area"></div>
+    <!--[/diy]--> 
+    
+  </div>
+  <div class="sd pph">
+   <!--[diy=right1]--><div id="right1" class="area"></div><!--[/diy]-->
+   <!--[diy=diycon3]--><div id="diycon3" class="area"></div><!--[/diy]-->
+  </div>
+</div>
+<div class="wp mtn"> 
+  <!--[diy=diy3]-->
+  <div id="diy3" class="area"></div>
+  <!--[/diy]--> 
+</div>
+
+<!--{template common/footer}-->

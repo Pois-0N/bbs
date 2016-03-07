@@ -1,0 +1,142 @@
+<!--{subtemplate common/header}-->
+<!--{eval $list = array();}-->
+<!--{eval $wheresql = category_get_wheresql($cat);}-->
+<!--{eval $list = category_get_list($cat, $wheresql, $page);}-->
+
+<link rel="stylesheet" type="text/css" href="template/win8mi_1st_huxiu/src/img/list.css" />
+
+<div id="pt" class="bm cl" style="border-left: 0; margin: 15px 0; background: none;">
+	<div class="z">
+	   <a href="./" class="nvhm" title="{lang homepage}">$_G[setting][bbname]</a> <em>&rsaquo;</em>
+	   <a href="$_G[setting][navs][1][filename]">当前位置</a> <em>&rsaquo;</em>
+	   <!--{loop $cat[ups] $value}--> <a href="{$portalcategory[$value['catid']]['caturl']}">$value[catname]</a><em>&rsaquo;</em><!--{/loop}-->
+	   $cat[catname]
+	</div>
+	<div class="y">
+	   <a href="portal.php?mod=portalcp&ac=article&catid=$cat[catid]" class="fb">投稿</a>
+	</div>
+</div>
+
+<!--{ad/text/wp a_t}-->
+<style id="diy_style" type="text/css"></style>
+<div class="wp">
+	<!--[diy=diy1]--><div id="diy1" class="area"></div><!--[/diy]-->
+</div>
+
+<!--
+<div id="ct" class="ct2 wp cl">
+-->
+<div id="ct" class="wp cl win8mi_simple win8mi_simple_list win8mi_tab" style="width: 940px;">
+	<div class="mn">
+		<!--{ad/articlelist/mbm hm/1}--><!--{ad/articlelist/mbm hm/2}-->
+		<!--[diy=listcontenttop]--><div id="listcontenttop" class="area"></div><!--[/diy]-->
+		<div class="bm">
+<!--
+			<div class="bm_c xld ">
+-->
+			<div class="bm_c  win8mi_xld ">
+			<!--{loop $list['list'] $value}-->
+			<!--{eval $highlight = article_title_style($value);}-->
+<!--
+				<dl class="bbda cl">
+-->				<dl class="bbs cl">
+						<!--{if $value[pic]}--><div class="atc  win8mi_list_pic"><a href="portal.php?mod=view&aid=$value[aid]" target="_blank"><img src="$value[pic]" alt="$value[title]" class="tn" width="220" height="146"/></a></div>
+						<!--{else}-->
+						<div style="float: left; width: 280px; height: 280px; border: 8px 0 0 8px; margin: 0px 15px 15px 0px; padding: 0; background: url(template/win8mi_1st_huxiu/src/img/nopic.png) no-repeat 0 0;">
+						</div>
+						<!--{/if}-->
+                        
+					<div class="ptitle"><a href="portal.php?mod=view&aid=$value[aid]" style="margin-top: 10px;" target="_blank" class="xi2" $highlight>$value[title]</a> <!--{if $value[status] == 1}-->({lang moderate_need})<!--{/if}--></div>
+					<div class="pcontent" style="padding-top: 5px;"> 
+                        $value[summary]
+					</div>
+                    <div class="pcontentdown">发布日期： $value[dateline]</div>							
+				</dl>
+			<!--{/loop}-->
+			</div>
+			<!--[diy=listloopbottom]--><div id="listloopbottom" class="area"></div><!--[/diy]-->
+		</div>
+		<!--{ad/articlelist/mbm hm/3}--><!--{ad/articlelist/mbm hm/4}-->
+		<!--{if $list['multi']}--><div class="pgs cl">{$list['multi']}</div><!--{/if}-->
+
+		<!--[diy=diycontentbottom]--><div id="diycontentbottom" class="area"></div><!--[/diy]-->
+
+	</div>
+	<div class="sd pph"> 
+	  
+<div class="sidebar" style="padding-top: 0;">
+        <!--{if $cat[subs]}-->
+		   <div class="bm_c bbda">
+				<div class="rtit" style="width: 230px; height: 40px; line-height: 40px; padding: 0; border-bottom: 2px solid #EEEEEE; font-size: 16px; color: #999999; margin-bottom: 10px;">{lang sub_category}</div>
+				<!--{eval $i = 1;}-->
+                <div class="rcontent">
+				<!--{loop $cat[subs] $value}-->
+				<!--{if $i != 1}--><!--{/if}--><a href="{echo getportalcategoryurl($value[catid]);}" style="font-size: 14px; padding: 5px 10px; margin: 0 10px 10px 0; color: #666666; border-radius: 8px; background: #F1F1F1;">$value[catname]</a><!--{eval $i--;}-->
+				<!--{/loop}-->
+                </div>
+	       </div>
+		<!--{/if}-->
+		
+        <div class="ads125">
+           <!--[diy=metro_ad1]--><div id="metro_ad1" class="area"></div><!--[/diy]-->
+        </div>
+        
+      </div>	  	  
+        
+	   <div style="width: 300px; height: 320px; border: 0; margin: 0; padding: 0; overflow: hidden; background: none">
+          <!--[diy=diyr01]--><div id="diyr01" class="area"></div><!--[/diy]-->
+       </div>
+
+		<div class="drag">
+			<!--[diy=diyrighttop]--><div id="diyrighttop" class="area"></div><!--[/diy]-->
+		</div>
+
+
+<!--{if $cat[others]}-->
+		<div class="bm">
+<!--			<div class="bm_h cl">
+				<h2>{lang category_related}</h2>
+			</div>
+			<div class="bm_c">
+-->
+		</div>
+<!--{/if}-->
+
+		<!-- 广告图片 -->
+		<div class="win8mi_diy m_t_10 col_win8mi_title">
+			<!--[diy=diy_sd_2]--><div id="diy_sd_2" class="area"></div><!--[/diy]-->
+		</div>
+
+		<!-- 幻灯图片 -->
+		<div class="win8mi_diy m_t_10  col_win8mi_title">
+			<!--[diy=diy_sd_3]--><div id="diy_sd_3" class="area"></div><!--[/diy]-->
+		</div>
+
+        
+		<!-- 热门图片 -->
+		<div class="win8mi_diy m_t_10 shadow  col_win8mi_title">
+			<!--[diy=diy_sd_hot]--><div id="diy_sd_hot" class="area"></div><!--[/diy]-->
+		</div>
+
+		<!-- 点击/评论 排行 -->
+		<div class="win8mi_diy m_t_10 col_win8mi_title shadow ">
+			<!--[diy=diy_sd_4]--><div id="diy_sd_4" class="area"></div><!--[/diy]-->
+		</div>
+        
+		<!-- 图文推荐 -->
+		<div class="win8mi_diy m_t_10 col_win8mi_title shadow ">
+			<!--[diy=diy_sd_5]--><div id="diy_sd_5" class="area"></div><!--[/diy]-->
+		</div>
+
+	</div>
+</div>
+
+<div class="wp" style="float: left; width: 940px; margin: 0 auto; height: auto; border: 0; background: none;">
+	<!--[diy=diybottom]--><div id="diybottom" class="area"></div><!--[/diy]-->
+</div>
+
+<div class="wp mtn">
+	<!--[diy=diy_bottom]--><div id="diy_bottom" class="area"></div><!--[/diy]-->
+</div>
+
+<!--{subtemplate common/footer}-->
