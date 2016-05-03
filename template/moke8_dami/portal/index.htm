@@ -1,0 +1,169 @@
+
+<!--{template common/header}-->
+<style id="diy_style" type="text/css"></style>
+<div class="wp">
+	<!--[diy=diy1]--><div id="diy1" class="area"></div><!--[/diy]-->
+    <div class="deanwp">
+    	<div class="slider">
+            <div class="bd">
+                <ul>
+                    <li><a href="#" target="_blank"><img src="$_G['style'][styleimgdir]/1418027910_632.png" /></a></li>
+                    <li><a href="#" target="_blank"><img src="$_G['style'][styleimgdir]/1418096892_433.jpg" /></a></li>
+                    <li><a href="#" target="_blank"><img src="$_G['style'][styleimgdir]/1417607688_741.png" /></a></li>
+                    <li><a href="#" target="_blank"><img src="$_G['style'][styleimgdir]/1418011499_475.png" /></a></li>
+                    <li><a href="#" target="_blank"><img src="$_G['style'][styleimgdir]/1418022004_869.jpg" /></a></li>
+                    <li><a href="#" target="_blank"><img src="$_G['style'][styleimgdir]/1418032742_966.png" /></a></li>
+                </ul>
+            </div>
+            
+            <div class="hd"><ul></ul></div>
+            
+            <div class="pnBtn prev"><span class="blackBg"></span><a class="arrow" href="javascript:void(0)"></a></div>
+            <div class="pnBtn next"><span class="blackBg"></span><a class="arrow" href="javascript:void(0)"></a></div>
+            
+        </div>
+        
+        <script type="text/javascript">
+        jq(document).ready(function(){
+            
+            /* 设置第一张图片 */
+            jq(".slider .bd li").first().before(jq(".slider .bd li").last());
+            
+            /* 鼠标悬停箭头按钮显示 */
+            jq(".slider").hover(function(){
+                jq(this).find(".arrow").stop(true,true).fadeIn(300)
+            },function(){
+                jq(this).find(".arrow").fadeOut(300)
+            });
+            
+            /* 滚动切换 */
+            jq(".slider").slide({
+                titCell:".hd ul", 
+                mainCell:".bd ul", 
+                effect:"leftLoop",
+                autoPlay:true, 
+                vis:3,
+                autoPage:true, 
+                trigger:"click"
+            });
+        
+        });
+        </script>
+        <div class="clear"></div>
+        <div class="deanmain">
+        	<div class="w1180">
+                <div class="deanm_left">               	
+                    <script type="text/javascript">
+					jq(function() {
+						var sliderElement = jq('.slider-carousel');
+						sliderElement.slidesjs({
+							play: {
+								auto: true,
+								effect: 'fade'
+							},
+							navigation: {
+								effect: "fade"
+							},
+							pagination: {
+								effect: "fade"
+							},
+							effect: {
+								slide: {
+									speed: 400
+								}
+							}
+						});
+						var slidernav = sliderElement.find('.slidesjs-navigation');
+						sliderElement.hover(function() {
+							slidernav.stop().animate({
+								opacity: 1
+							})
+						},function() {
+							slidernav.stop().animate({
+								opacity: 0
+							});
+						});
+					});
+					</script>
+                    <div class="clear"></div>
+                    <div class="deanm_c">
+                    	<ul>
+                        	<!--[diy=deanm_c]--><div id="deanm_c" class="area"></div><!--[/diy]-->
+                        	
+                        </ul>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="deanmore"><a href="forum.php" target="_blank">查看更多</a></div>
+                </div>
+                <div class="deanm_right">
+                	<div class="deanfatie"><a href="forum.php?mod=misc&action=nav" target="_blank">发表主题</a></div>
+                    <div class="clear"></div>
+                    <div class="deanbankuai">
+                    	<div class="deanpubtitle"><span>推荐版块</span><a href="#" target="_blank" title="更多"></a></div>
+                        <ul>
+                        	<!--[diy=deanbankuai]--><div id="deanbankuai" class="area"></div><!--[/diy]-->
+                        	
+                            <div class="clear"></div>
+                        </ul>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="deanads">
+                    	<div class="deanpubtitle"><span>广告位</span></div>
+                        <div class="deanadsimg"><!--[diy=deanads]--><div id="deanads" class="area"></div><!--[/diy]--></div>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="deanhot">
+                    	<div class="deanpubtitle"><span>今日热点</span><a href="#" target="_blank" title="更多"></a></div>
+                        <ul>
+                        	<!--[diy=deanhot]--><div id="deanhot" class="area"></div><!--[/diy]-->
+                            
+                        </ul>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="deanhuodong">
+                    	<div class="deanpubtitle"><span>活动专区</span><a href="#" target="_blank" title="更多"></a></div>
+                        <ul>
+                        	<!--[diy=deanhuodong]--><div id="deanhuodong" class="area"></div><!--[/diy]-->
+                        	
+                        </ul>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="deanpaihang">
+                    	<div class="deanpubtitle"><span>帖子排行</span><a href="#" target="_blank" title="更多"></a></div>
+                        <ul>
+                        	<!--[diy=deanpaihang]--><div id="deanpaihang" class="area"></div><!--[/diy]-->
+                        	
+                        </ul>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="clear"></div>
+                    <div class="deanads">
+                    	<div class="deanpubtitle"><span>精品展示</span></div>
+                        <div class="deanadsimg"><!--[diy=deanadsimg]--><div id="deanadsimg" class="area"></div><!--[/diy]--></div>
+                    </div>
+                    <div class="clear"></div>
+                    
+                    <div class="deanxinlangweibo">
+                        <ul>
+                        	<div class="deanxlwb">
+                        		<!--[diy=deanxinlangweibo]--><div id="deanxinlangweibo" class="area"></div><!--[/diy]-->
+                            </div>
+                        </ul>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="deanlink">
+                    	<div class="deanpubtitle"><span>友情链接</span><a href="#" target="_blank" title="更多"></a></div>
+                        <ul>
+                        	<!--[diy=deanlink]--><div id="deanlink" class="area"></div><!--[/diy]-->
+                            <div class="clear"></div>
+                        </ul>
+                    </div>
+                    
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="misc.php?mod=diyhelp&action=get&type=index&diy=yes&r={echo random(4)}" type="text/javascript"></script>
+<!--{template common/footer}-->

@@ -1,0 +1,220 @@
+﻿@charset "utf-8";
+/*模板版權：威海迪恩網絡有限公司*/
+/*公司網址：http://www.188yule.com*/
+/*聯系客服QQ：1589787930，客服QQ：2573759829*/
+/*版本：vision1.0*/
+/*----------公共樣式-------------*/
+@keyframes pop{
+0%{opacity:0;transform:scale(0.2);-ms-transform:scale(0.2);}
+60%{opacity:0.75;transform:scale(1.1);-ms-transform:scale(1.1);}
+100%{opacity:1;transform:scale(1);-ms-transform:scale(1);}
+}
+@-moz-keyframes pop{
+0%{opacity:0;-moz-transform:scale(0.2);}
+60%{opacity:0.75;-moz-transform:scale(1.1);}
+100%{opacity:1;-moz-transform:scale(1);}
+}
+@-webkit-keyframes pop{
+0%{opacity:0;-webkit-transform:scale(0.2);}
+60%{opacity:0.75;-webkit-transform:scale(1.1);}
+100%{opacity:1;-webkit-transform:scale(1);}
+}
+@-o-keyframes pop{
+0%{opacity:0;-o-transform:scale(0.2);}
+60%{opacity:0.75;-o-transform:scale(1.1);}
+100%{opacity:1;-o-transform:scale(1);}
+}
+@keyframes fastr{
+0%{opacity:0;transform:translate(0,60px);}
+100%{opacity:1;transform:translate(0,0);}
+}
+@-webkit-keyframes fastr{
+0%{opacity:0;-webkit-transform:translate(0,60px);}
+100%{opacity:1;-webkit-transform:translate(0,0);}
+}
+@-moz-keyframes fastr{
+0%{opacity:0;-moz-transform:translate(0,60px);}
+100%{opacity:1;-moz-transform:translate(0,0);}
+}
+@-o-keyframes fastr{
+0%{opacity:0;-o-transform:translate(0,60px);}
+100%{opacity:1;-o-transform:translate(0,0);}
+}
+@keyframes afastr{
+0%{opacity:0;transform:translate(0,-60px);}
+67%{opacity:1;transform:translate(0,0);}
+86%{opacity:1;transform:translate(0,-2px);}
+100%{opacity:1;transform:translate(0,0);}
+}
+@-webkit-keyframes afastr{
+0%{opacity:0;-webkit-transform:translate(0,-60px);}
+67%{opacity:1;-webkit-transform:translate(0,0);}
+86%{opacity:1;-webkit-transform:translate(0,-2px);}
+100%{opacity:1;-webkit-transform:translate(0,0);}
+}
+@-moz-keyframes afastr{
+0%{opacity:0;-moz-transform:translate(0,-60px);}
+67%{opacity:1;-moz-transform:translate(0,0);}
+86%{opacity:1;-moz-transform:translate(0,-2px);}
+100%{opacity:1;-moz-transform:translate(0,0);}
+}
+@-o-keyframes afastr{
+0%{opacity:0;-o-transform:translate(0,-60px);}
+67%{opacity:1;-o-transform:translate(0,0);}
+86%{opacity:1;-o-transform:translate(0,-2px);}
+100%{opacity:1;-o-transform:translate(0,0);}
+}
+.fwinmask{animation-duration:0.4s;-webkit-animation-duration:0.4s;animation-name:pop;-webkit-animation-name:pop;}
+.p_pop{animation-duration:0.2s;-webkit-animation-duration:0.2s;animation-name:afastr;-webkit-animation-name:afastr;}
+.fastpreview{animation-duration:0.5s;-webkit-animation-duration:0.5s;animation-name:afastr;-webkit-animation-name:afastr;}
+.pct{animation-duration:0.5s;-webkit-animation-duration:0.5s;animation-name:fastr;-webkit-animation-name:fastr;}
+#hd h2{animation-duration:0.4s;-webkit-animation-duration:0.4s;animation-name:afastr;-webkit-animation-name:afastr;}
+#um,#toptb,.pns{animation-duration:1s;-webkit-animation-duration:1s;animation-name:afastr;-webkit-animation-name:afastr;}
+.avt{transition:all .15s ease-out;-webkit-transition:all .15s ease-out;-moz-transition:all .15s ease-out;-o-transition:all .15s ease-out;}
+.avt:hover{transform:scale(1.07);-webkit-transform:scale(1.07);-moz-transform:scale(1.07);-o-transform:scale(1.07);}
+a{transition:all 0.2s linear;-webkit-transition:all 0.2s linear;-moz-transition:all 0.2s linear;-o-transition:all 0.2s linear;}
+#ls_username,#ls_password{transition:all 0.25s ease;-webkit-transition:all 0.25s ease;-moz-transition:all 0.25s ease;-o-transition:all 0.25s ease;}
+#ls_username:focus,#ls_password:focus{transform:scale(1.1);-webkit-transform:scale(1.1);-moz-transform:scale(1.1);-o-transform:scale(1.1);}
+
+.frame-1 { background-color:transparent !important; background-image:none !important; border:0 none !important; margin:0 !important; padding:0 !important; border-width:0px; height: auto }
+	.frame-1-c { background-color:transparent !important; background-image:none !important; border:0 none !important; margin:0 !important; padding:0 !important; border-width:0px; height: auto; }
+	.move-span{ background-color:transparent !important; background-image:none !important; border:0 none !important; margin:0 !important; padding:0 !important; border-width:0px; height:auto;}
+		.move-span .content{ background-color:transparent !important; background-image:none !important; border:0 none !important; margin:0 !important; padding:0 !important; border-width:0px; height:auto;}
+
+
+a{ text-decoration:none;}
+a:hover{ text-decoration:none;}
+*{ padding:0px;margin:0px;}
+ul li{list-style:none;}
+img{ border:none;}
+.clear{ clear:both;}
+body{ font-family:Microsoft Yahei;}
+.w1180{ width:1180px; margin:0 auto;}
+.wp,#wp{ width:1180px; margin:0 auto;}
+#toptb{ background:#fff!important;border-bottom:none;}
+#toptb a{ font-size: 12px;color: #96C9DC;}
+#diy-tg{line-height: 9px!important;}
+#hd .wp{ padding:0;}
+.hdc{min-height:0;}
+.ct2_a .mn{ width:1018px;}
+.ct3_a .mn{ width:795px;}
+body#space .block{margin: 0 5px 10px!important;border: 1px solid #DDD!important;
+background: #FFF;}
+.move-span{ background:none;}
+.tdats .tfxf{ width:865px!important;}
+/*登陸框*/
+.flbc{ background:url({STYLEIMGDIR}/cls.png) 0 0 no-repeat;}
+.rfm{ border-bottom:0;}
+.m_c .c{ background:#ECECEC;padding: 0px 10px 10px;}
+.flb{padding: 30px 10px 30px;}
+.flb em{ font-size:18px; font-weight:normal; color:#96C9DC;}
+.pn{  height:30px; line-height:30px; background:none; -webkit-box-shadow:none;-webkit-box-shadow:none;-o-box-shadow:none;-moz-box-shadow:none;-ms-box-shadow:none;box-shadow:none; font-family:Microsoft Yahei;}
+.pnc{ border-color:#96C9DC; background:#96C9DC; color:#fff;}
+.rfm a,.fwin .rfm th{ color:#96C9DC;}
+.t_l, .t_c, .t_r, .m_l, .m_r, .b_l, .b_c, .b_r{ background:none; opacity:0;}
+/*快捷導航*/
+#qmenu{ margin:0; width: 36px; height:52px;cursor: pointer;position: relative; padding-left:10px;background:url({STYLEIMGDIR}/settings.png) center no-repeat;}
+#qmenu.a{ background:url({STYLEIMGDIR}/settings.png) center center no-repeat; }
+/*header*/
+.deanhdtop{ width:100%; height:80px; background:#fff;}
+	.deanlogo{ width:304px; height:48px; float:left; }
+	.deansearch{ width:300px; float:left; margin-left:400px; margin-top:10px;}
+	.deandl{ width:auto; float:right;}
+		.deandl ul li{ float:left;}
+			.deandl ul li a{ display:block; width:60px; height:25px; line-height:25px; color:#333; font-size:14px; text-align:center; margin-top:25px;}
+	.deanhdbottom{ width:100%; height:52px; background:#96C9DC;}
+		.deanhdbl{ width:800px; float:left;height:52px; overflow:hidden;}
+		.deanhdbl span{ display:none;}
+			.deanhdbl ul li{ float:left;}
+				.deanhdbl ul li a{ position: relative;z-index: 100;display: inline-block;padding: 15px 25px;color: #fff;text-transform: uppercase;font-weight: 300;font-size: 15px;-webkit-transition: all 0.2s linear;-moz-transition: all 0.2s linear;-o-transition: all 0.2s linear;transition: all 0.2s linear;border-right: 1px solid rgba(255,255,255,0.2);}
+				.deanhdbl ul li:first-child a {border-left: 1px solid rgba(255,255,255,0.2);}
+					.deanhdbl ul li a:hover{ background:#FFF; color:#96C9DC;}
+					.deanhdbl ul li.a a{background:#FFF; color:#96C9DC;}
+			.deanhdm{ float:right;}
+				.deanhdm a{ display:block; width:52px; height:52px; background:url({STYLEIMGDIR}/setting.png) center no-repeat;}
+		.deanhdr{ float:left;}
+			.deanhdr a{ width:150px; height:52px; display:block; text-align:center; line-height:52px; color:#96C9DC; font-size:13px; background:#fff;}
+				.deanhdr a:hover{ background:#96A0AB; color:#fff;}
+	.deandenglu{ float:right;}
+		.deandenglu ul li{ float:left;}
+			.deandenglu ul li a{height: 20px;line-height: 20px;padding: 5px 10px;color: #b8c4ce;border-radius: 3px; display:block; font-size:13px;}
+			.deandenglu ul li a:hover{background-color: #96C9DC !important; color:#fff!important;}
+
+/*footer*/
+#ft{ border-top: none!important;}
+.deanfooter{ width:100%; height:210px; background:#EFF2F5; padding-top:10px; margin-top:20px;}
+	.deanft{padding-top: 55px;}
+		.deanftlogo{ float:left; width:361px;}
+		.deanftinfo{width:330px;}
+			.deanftinfo img{margin-bottom: 5px;margin-top: 10px;}
+			.deanftinfo p{font-size: 12px;color: #b8c5ce;display: block;height: 20px;line-height: 20px;}
+		.deanftright{ float:left; margin-left:200px; width:518px;}
+			.deanftrt{height: 30px;line-height: 30px;}
+				.deanftrt a{display: inline-block;padding-left: 20px;font-size: 14px;color: #7b8b95;}
+					.deanftrt a:hover{ color:#3499da;}
+				.deanftright p{color: #b8c5ce; font-size:12px;text-indent: 154px;}
+			.deanftrb{height: 40px;margin-top: 8px;margin-left: 94px;}
+				.deanftrb a{height: 34px;width: 40px;float: left;margin-left: 10px; display:block;-webkit-transition:all 0.2s ease;-o-transition:all 0.2s ease;-ms-transition:all 0.2s ease;-moz-transition:all 0.2s ease;transition:all 0.2s ease;}
+					.deanfirst{ background:url({STYLEIMGDIR}/ft-shares.png) center no-repeat; background-position:0px 0px;}
+						.deanfirst:hover{background:url({STYLEIMGDIR}/ft-shares.png) center no-repeat; background-position:-48px 0px;}
+					.deanweixin{ background:url({STYLEIMGDIR}/ft-shares.png) center no-repeat; background-position:0px -34px;}
+						.deanweixin:hover{background:url({STYLEIMGDIR}/ft-shares.png) center no-repeat; background-position:-48px -34px;}
+					.deantencent{ background:url({STYLEIMGDIR}/ft-shares.png) center no-repeat; background-position:0px -68px;}
+						.deantencent:hover{background:url({STYLEIMGDIR}/ft-shares.png) center no-repeat; background-position:-48px -68px;}
+					.deanweibo{ background:url({STYLEIMGDIR}/ft-shares.png) center no-repeat; background-position:0px -102px;}
+						.deanweibo:hover{background:url({STYLEIMGDIR}/ft-shares.png) center no-repeat; background-position:-48px -102px;}
+					.deanuniu{ width:88px!important; background:url({STYLEIMGDIR}/ft-shares.png) center no-repeat; background-position:0px -172px;}
+						.deanuniu:hover{background:url({STYLEIMGDIR}/ft-shares.png) center no-repeat; background-position:-100px -172px;}
+					.deancloud{ width:88px!important; background:url({STYLEIMGDIR}/ft-shares.png) center no-repeat; background-position:0px -137px;}
+						.deancloud:hover{background:url({STYLEIMGDIR}/ft-shares.png) center no-repeat; background-position:-100px -137px;}
+					.deanhangye{ width:88px!important; background:url({STYLEIMGDIR}/hy_83x30.png) center no-repeat;}
+			.deanerweima{ float:left;margin-top: 5px;}
+/*搜索*/
+	/*搜索*/
+	#scbar{height: 30px;line-height: 30px;background: #fff;margin: 13px 0 0;float: right;overflow: visible;border: 2px solid #e9e9e9;}
+		.scbar_type_td, #scbar_type{ text-align: center;width: 30px;line-height: 30px;}
+		#scbar_type{ padding-left:0;}
+		.scbar_txt_td, .scbar_type_td {background: none;}
+		#scbar_txt{ width:201px!important; padding-left:8px; font-family:Microsoft Yahei; color:#666;height: 23px;line-height: 22px;font-size: 12px;border:0;}
+		#scbar_btn{background:url({STYLEIMGDIR}/searchbar.png) center no-repeat!important; border: 0; width: 33px; height: 30px; line-height:30px;}
+/*登錄*/
+	
+		/*未登錄*/
+		.deanunlogin{ float:right; height:41px; line-height:41px; font-size:14px; font-family:microsoft yahei;}
+			/*登錄*/
+			.logininfo{ position:absolute; height:41px; bottom:0px; right:50px; color:#333;}
+				.logins{ float:right; overflow:hidden; width:100px; height:41px;}
+					.deanlogin{float:right; width:auto; }
+						.deanlogin ul{overflow:hidden;float:right;}
+							.deanlogin ul li{ float:left;}
+							.loginout{ }
+								#myprompt.new{ background:url({STYLEIMGDIR}/notice.gif) left center no-repeat;;}
+								.deanlogin dd a{ color:#666; }
+								.loginout a,.deanvwmy a{ color:#eee;}
+						.unlogin{ position:absolute; top:0; right:0px;}
+							.unlogin a{ display:block; width:48px; margin:0; height:41px; overflow:hidden; line-height:41px; text-align:center; float:left; padding:0; font-size:16px;  font-family:microsoft yahei; background:#fff; color:#333; margin-left:10px;}
+				#deanmemberinfo{ position:absolute; text-align:center; right:0; top:0; padding:0; width:108px; z-index:121; height:35px; line-height:30px; font-size:16px; overflow:hidden;margin-top: 25px;}
+				#deanmemberinfo a{color:#96C9DC; font-family:microsoft yahei; font-size:14px;}
+					#deanmembercontent{ display:none; position:absolute; z-index:120; padding:10px 14px; background:#96C9DC; right:0; top:65px; width:80px; }	
+						#deanmemberinfo.curs a{ color:#96C9DC;}
+						#deanmemberinfo a span{ display:block; width: 60px; height: 60px; overflow: hidden; line-height: 0; position: absolute; z-index: 6; top: 0; right: 8px;}
+						#deanmembercontent i{position:absolute; top:-5px; left:15px; display:block; width:80px; height:6px; background:url({STYLEIMGDIR}/up.png) center no-repeat;}
+						#deanmembercontent dd{ display:block; line-height:20px; clear:both; text-align:center;}
+						#deanmembercontent dd a:hover{ color:#FFF;}
+						#deanmembercontent dd a{ color:#FFF; font-size:12px; display:block;}
+						.diydiv{ float:left;}
+						#diy-tg{  margin-top:6px; background:none;text-indent:-22px;  line-height:11px!important;}
+						#g_upmine{ padding-left:0px;}
+			.deanunlogin a{ float:left; padding-left:6px; display:block; color:#666; }
+			.deanunlogin a:hover{color:#2A629D;}
+			.deanadmin{height: 22px;float: right;width: 50px;margin-right: 8px;display: block;}
+			.deanvwmy{float:left;margin-left: 10px;}
+			.deanvwmy img{ width:30px; height:30px; border-radius:24px;}
+			#um dl dd{ float:left; margin-right:5px;}
+			#pm_ntc.new{ background:url({STYLEIMGDIR}/new_pm.gif) left center no-repeat;}
+/*二級導航*/
+	#hd .p_pop{ background:#fff; opacity:0.95; filter:alpha(opacity=95); box-shaodow:0 0 0 #fff; border:1px solid #eee; margin-top:5px; }
+		#hd .p_pop a{ padding:6px 10px; color:#96C9DC; font-size:12px; font-family:microsoft yahei;  border-bottom: 1px solid #f2f2f2;}
+		#hd .p_pop a:hover{ color:#FFF!important; background:#96C9DC;}
+		#hd .p_pop .adv a{ padding:0; color:#38485a; border-bottom:0;}
+		.p_pop{ box-shadow:none;}
