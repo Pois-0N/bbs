@@ -1,0 +1,728 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="spacecss"><![CDATA[]]></item>
+	<item id="layoutdata">
+		<item id="qing_index_focus">
+			<item id="frame`frameVbjT6r">
+				<item id="attr">
+					<item id="name"><![CDATA[frameVbjT6r]]></item>
+					<item id="moveable"><![CDATA[true]]></item>
+					<item id="className"><![CDATA[cl_frame_bm frame move-span cl frame-1]]></item>
+					<item id="titles"><![CDATA[]]></item>
+				</item>
+				<item id="column`frameVbjT6r_left">
+					<item id="attr">
+						<item id="name"><![CDATA[frameVbjT6r_left]]></item>
+						<item id="className"><![CDATA[column frame-1-c]]></item>
+					</item>
+					<item id="block`portal_block_58">
+						<item id="attr">
+							<item id="name"><![CDATA[portal_block_58]]></item>
+							<item id="className"><![CDATA[cl_block_bm block move-span]]></item>
+							<item id="titles"><![CDATA[]]></item>
+						</item>
+					</item>
+				</item>
+			</item>
+		</item>
+		<item id="qing_index_left">
+			<item id="frame`framejZum9c">
+				<item id="attr">
+					<item id="name"><![CDATA[framejZum9c]]></item>
+					<item id="moveable"><![CDATA[true]]></item>
+					<item id="className"><![CDATA[cl_frame_bm frame move-span cl frame-1]]></item>
+					<item id="titles"><![CDATA[]]></item>
+				</item>
+				<item id="column`framejZum9c_left">
+					<item id="attr">
+						<item id="name"><![CDATA[framejZum9c_left]]></item>
+						<item id="className"><![CDATA[column frame-1-c]]></item>
+					</item>
+					<item id="block`portal_block_59">
+						<item id="attr">
+							<item id="name"><![CDATA[portal_block_59]]></item>
+							<item id="className"><![CDATA[cl_block_bm block move-span]]></item>
+							<item id="titles"><![CDATA[]]></item>
+						</item>
+					</item>
+				</item>
+			</item>
+		</item>
+		<item id="qing_index_righttop">
+			<item id="frame`framew67Nr7">
+				<item id="attr">
+					<item id="name"><![CDATA[framew67Nr7]]></item>
+					<item id="moveable"><![CDATA[true]]></item>
+					<item id="className"><![CDATA[cl_frame_bm frame move-span cl frame-1]]></item>
+					<item id="titles"><![CDATA[]]></item>
+				</item>
+				<item id="column`framew67Nr7_left">
+					<item id="attr">
+						<item id="name"><![CDATA[framew67Nr7_left]]></item>
+						<item id="className"><![CDATA[column frame-1-c]]></item>
+					</item>
+					<item id="block`portal_block_60">
+						<item id="attr">
+							<item id="name"><![CDATA[portal_block_60]]></item>
+							<item id="className"><![CDATA[cl_block_bm block move-span]]></item>
+							<item id="titles"><![CDATA[]]></item>
+						</item>
+					</item>
+				</item>
+			</item>
+		</item>
+		<item id="qing_index_right2">
+			<item id="frame`frame4xevDM">
+				<item id="attr">
+					<item id="name"><![CDATA[frame4xevDM]]></item>
+					<item id="moveable"><![CDATA[true]]></item>
+					<item id="className"><![CDATA[cl_frame_bm frame move-span cl frame-1]]></item>
+					<item id="titles"><![CDATA[]]></item>
+				</item>
+				<item id="column`frame4xevDM_left">
+					<item id="attr">
+						<item id="name"><![CDATA[frame4xevDM_left]]></item>
+						<item id="className"><![CDATA[column frame-1-c]]></item>
+					</item>
+					<item id="block`portal_block_61">
+						<item id="attr">
+							<item id="name"><![CDATA[portal_block_61]]></item>
+							<item id="className"><![CDATA[cl_block_bm block move-span]]></item>
+							<item id="titles"><![CDATA[]]></item>
+						</item>
+					</item>
+				</item>
+			</item>
+		</item>
+		<item id="qing_index_right">
+			<item id="tab`tab82PNKX">
+				<item id="attr">
+					<item id="name"><![CDATA[tab82PNKX]]></item>
+					<item id="moveable"><![CDATA[true]]></item>
+					<item id="className"><![CDATA[qx_tab frame-tab move-span cl]]></item>
+					<item id="titles">
+						<item id="className">
+							<item id="0"><![CDATA[tab-title title column cl]]></item>
+						</item>
+						<item id="style"><![CDATA[]]></item>
+						<item id="switchType">
+							<item id="0"><![CDATA[click]]></item>
+						</item>
+					</item>
+				</item>
+				<item id="column`tab82PNKX_title">
+					<item id="attr">
+						<item id="name"><![CDATA[tab82PNKX_title]]></item>
+						<item id="className"><![CDATA[tab-title title column cl]]></item>
+					</item>
+					<item id="block`portal_block_62">
+						<item id="attr">
+							<item id="name"><![CDATA[portal_block_62]]></item>
+							<item id="className"><![CDATA[cl_block_bm block move-span]]></item>
+							<item id="titles">
+								<item id="className">
+									<item id="0"><![CDATA[blocktitle title]]></item>
+								</item>
+								<item id="style"><![CDATA[]]></item>
+								<item id="first">
+									<item id="text"><![CDATA[¼âµ¶°æ]]></item>
+									<item id="href"><![CDATA[]]></item>
+									<item id="color"><![CDATA[]]></item>
+									<item id="float"><![CDATA[]]></item>
+									<item id="margin"><![CDATA[]]></item>
+									<item id="font-size"><![CDATA[]]></item>
+									<item id="className"><![CDATA[titletext]]></item>
+									<item id="src"><![CDATA[]]></item>
+								</item>
+							</item>
+						</item>
+					</item>
+					<item id="block`portal_block_63">
+						<item id="attr">
+							<item id="name"><![CDATA[portal_block_63]]></item>
+							<item id="className"><![CDATA[cl_block_bm block move-span]]></item>
+							<item id="titles">
+								<item id="className">
+									<item id="0"><![CDATA[blocktitle title]]></item>
+								</item>
+								<item id="style"><![CDATA[]]></item>
+								<item id="first">
+									<item id="text"><![CDATA[ÂÛÌ³°æ]]></item>
+									<item id="href"><![CDATA[]]></item>
+									<item id="color"><![CDATA[]]></item>
+									<item id="float"><![CDATA[]]></item>
+									<item id="margin"><![CDATA[]]></item>
+									<item id="font-size"><![CDATA[]]></item>
+									<item id="className"><![CDATA[titletext]]></item>
+									<item id="src"><![CDATA[]]></item>
+								</item>
+							</item>
+						</item>
+					</item>
+					<item id="block`portal_block_64">
+						<item id="attr">
+							<item id="name"><![CDATA[portal_block_64]]></item>
+							<item id="className"><![CDATA[block move-span]]></item>
+							<item id="titles">
+								<item id="className">
+									<item id="0"><![CDATA[blocktitle title]]></item>
+								</item>
+								<item id="style"><![CDATA[]]></item>
+								<item id="first">
+									<item id="text"><![CDATA[¹ÙÍø°æ]]></item>
+									<item id="href"><![CDATA[]]></item>
+									<item id="color"><![CDATA[]]></item>
+									<item id="float"><![CDATA[]]></item>
+									<item id="margin"><![CDATA[]]></item>
+									<item id="font-size"><![CDATA[]]></item>
+									<item id="className"><![CDATA[titletext]]></item>
+									<item id="src"><![CDATA[]]></item>
+								</item>
+							</item>
+						</item>
+					</item>
+				</item>
+			</item>
+		</item>
+		<item id="qing_bbs_hottopic">
+			<item id="frame`frame6NbCvL">
+				<item id="attr">
+					<item id="name"><![CDATA[frame6NbCvL]]></item>
+					<item id="moveable"><![CDATA[true]]></item>
+					<item id="className"><![CDATA[cl_frame_bm frame move-span cl frame-1]]></item>
+					<item id="titles"><![CDATA[]]></item>
+				</item>
+				<item id="column`frame6NbCvL_left">
+					<item id="attr">
+						<item id="name"><![CDATA[frame6NbCvL_left]]></item>
+						<item id="className"><![CDATA[column frame-1-c]]></item>
+					</item>
+					<item id="block`portal_block_65">
+						<item id="attr">
+							<item id="name"><![CDATA[portal_block_65]]></item>
+							<item id="className"><![CDATA[cl_block_bm block move-span]]></item>
+							<item id="titles"><![CDATA[]]></item>
+						</item>
+					</item>
+				</item>
+			</item>
+		</item>
+		<item id="diy12"><![CDATA[]]></item>
+	</item>
+	<item id="blockdata">
+		<item id="block">
+			<item id="58">
+				<item id="bid"><![CDATA[58]]></item>
+				<item id="blockclass"><![CDATA[forum_thread]]></item>
+				<item id="blocktype"><![CDATA[0]]></item>
+				<item id="name"><![CDATA[portal_01]]></item>
+				<item id="title"><![CDATA[]]></item>
+				<item id="classname"><![CDATA[cl_block_bm]]></item>
+				<item id="summary"><![CDATA[]]></item>
+				<item id="uid"><![CDATA[1]]></item>
+				<item id="username"><![CDATA[admin]]></item>
+				<item id="styleid"><![CDATA[0]]></item>
+				<item id="blockstyle">
+					<item id="name"><![CDATA[]]></item>
+					<item id="blockclass"><![CDATA[forum_thread]]></item>
+					<item id="makethumb"><![CDATA[0]]></item>
+					<item id="getpic"><![CDATA[1]]></item>
+					<item id="getsummary"><![CDATA[0]]></item>
+					<item id="settarget"><![CDATA[0]]></item>
+					<item id="moreurl"><![CDATA[0]]></item>
+					<item id="fields">
+						<item id="0"><![CDATA[url]]></item>
+						<item id="1"><![CDATA[title]]></item>
+						<item id="2"><![CDATA[pic]]></item>
+					</item>
+					<item id="template">
+						<item id="raw"><![CDATA[<ul style="position: relative; width: 960px; height: 327px;" class="focuspic">
+  [loop]<li style="position: absolute; width: 960px; left: 0px; top: 0px; display: none;"><a href="{url}" title="{title}" target="_blank"><img src="{pic}" height="320" width="960"></a></li>[/loop]
+</ul>
+]]></item>
+						<item id="footer"><![CDATA[]]></item>
+						<item id="header"><![CDATA[]]></item>
+						<item id="indexplus">
+						</item>
+						<item id="index">
+						</item>
+						<item id="orderplus">
+						</item>
+						<item id="order">
+						</item>
+						<item id="loopplus">
+						</item>
+						<item id="loop"><![CDATA[<li style="position: absolute; width: 960px; left: 0px; top: 0px; display: none;"><a href="{url}" title="{title}" target="_blank"><img src="{pic}" height="320" width="960"></a></li>]]></item>
+					</item>
+					<item id="hash"><![CDATA[751b9f86]]></item>
+				</item>
+				<item id="picwidth"><![CDATA[0]]></item>
+				<item id="picheight"><![CDATA[0]]></item>
+				<item id="target"><![CDATA[blank]]></item>
+				<item id="dateformat"><![CDATA[Y-m-d]]></item>
+				<item id="dateuformat"><![CDATA[0]]></item>
+				<item id="script"><![CDATA[threadnew]]></item>
+				<item id="param">
+					<item id="fids">
+						<item id="0"><![CDATA[0]]></item>
+					</item>
+					<item id="special">
+						<item id="0"><![CDATA[0]]></item>
+					</item>
+					<item id="viewmod"><![CDATA[0]]></item>
+					<item id="rewardstatus"><![CDATA[0]]></item>
+					<item id="picrequired"><![CDATA[1]]></item>
+					<item id="orderby"><![CDATA[lastpost]]></item>
+					<item id="postdateline"><![CDATA[0]]></item>
+					<item id="lastpost"><![CDATA[0]]></item>
+					<item id="titlelength"><![CDATA[40]]></item>
+					<item id="summarylength"><![CDATA[80]]></item>
+					<item id="startrow"><![CDATA[0]]></item>
+					<item id="items"><![CDATA[5]]></item>
+				</item>
+				<item id="shownum"><![CDATA[5]]></item>
+				<item id="cachetime"><![CDATA[3600]]></item>
+				<item id="cachetimerange"><![CDATA[]]></item>
+				<item id="punctualupdate"><![CDATA[0]]></item>
+				<item id="hidedisplay"><![CDATA[0]]></item>
+				<item id="dateline"><![CDATA[1416723621]]></item>
+				<item id="notinherited"><![CDATA[0]]></item>
+				<item id="isblank"><![CDATA[0]]></item>
+			</item>
+			<item id="59">
+				<item id="bid"><![CDATA[59]]></item>
+				<item id="blockclass"><![CDATA[forum_thread]]></item>
+				<item id="blocktype"><![CDATA[0]]></item>
+				<item id="name"><![CDATA[portal_02]]></item>
+				<item id="title"><![CDATA[]]></item>
+				<item id="classname"><![CDATA[cl_block_bm]]></item>
+				<item id="summary"><![CDATA[]]></item>
+				<item id="uid"><![CDATA[1]]></item>
+				<item id="username"><![CDATA[admin]]></item>
+				<item id="styleid"><![CDATA[0]]></item>
+				<item id="blockstyle">
+					<item id="name"><![CDATA[]]></item>
+					<item id="blockclass"><![CDATA[forum_thread]]></item>
+					<item id="makethumb"><![CDATA[0]]></item>
+					<item id="getpic"><![CDATA[1]]></item>
+					<item id="getsummary"><![CDATA[1]]></item>
+					<item id="settarget"><![CDATA[1]]></item>
+					<item id="moreurl"><![CDATA[0]]></item>
+					<item id="fields">
+						<item id="0"><![CDATA[url]]></item>
+						<item id="1"><![CDATA[title]]></item>
+						<item id="2"><![CDATA[forumurl]]></item>
+						<item id="3"><![CDATA[forumname]]></item>
+						<item id="4"><![CDATA[dateline]]></item>
+						<item id="5"><![CDATA[pic]]></item>
+						<item id="6"><![CDATA[summary]]></item>
+					</item>
+					<item id="template">
+						<item id="raw"><![CDATA[[loop]
+<div class="portal_list">
+  <dt class="portal_qx_title"> <a href="{url}"{target} class="xi2">{title}</a></dt>
+  <dt class="portal_qx_info"> <span class="dl_ddl"> <a href="{forumurl}"{target} class="xi2">{forumname}</a></span>&#160;&#160; 	{dateline}</dt>
+  <dd class="portal_img"> <a href=" {url}"{target}><img src="{pic}" height="310" width="680"></a> </dd>
+  <dd class="portal_summary">{summary}</dd>
+  <dd class="dd_line"> <span class="z" style="
+    padding: 0;
+"><a href=" {url}"{target}>ÔÄ¶ÁÈ«ÎÄ>></a></span> <span class="y" style="
+    padding: 0;
+"> <span class="dl_dd2">&#160;&#160;&#160;&#160;85</span> <span class="dl_dd3">&#160;&#160;&#160;&#160;3</span></span> </dd>
+</div>
+[/loop]]]></item>
+						<item id="footer"><![CDATA[]]></item>
+						<item id="header"><![CDATA[]]></item>
+						<item id="indexplus">
+						</item>
+						<item id="index">
+						</item>
+						<item id="orderplus">
+						</item>
+						<item id="order">
+						</item>
+						<item id="loopplus">
+						</item>
+						<item id="loop"><![CDATA[<div class="portal_list">
+  <dt class="portal_qx_title"> <a href="{url}"{target} class="xi2">{title}</a></dt>
+  <dt class="portal_qx_info"> <span class="dl_ddl"> <a href="{forumurl}"{target} class="xi2">{forumname}</a></span>&#160;&#160; 	{dateline}</dt>
+  <dd class="portal_img"> <a href=" {url}"{target}><img src="{pic}" height="310" width="680"></a> </dd>
+  <dd class="portal_summary">{summary}</dd>
+  <dd class="dd_line"> <span class="z" style="
+    padding: 0;
+"><a href=" {url}"{target}>ÔÄ¶ÁÈ«ÎÄ>></a></span> <span class="y" style="
+    padding: 0;
+"> <span class="dl_dd2">&#160;&#160;&#160;&#160;85</span> <span class="dl_dd3">&#160;&#160;&#160;&#160;3</span></span> </dd>
+</div>]]></item>
+					</item>
+					<item id="hash"><![CDATA[3041034c]]></item>
+				</item>
+				<item id="picwidth"><![CDATA[0]]></item>
+				<item id="picheight"><![CDATA[0]]></item>
+				<item id="target"><![CDATA[blank]]></item>
+				<item id="dateformat"><![CDATA[Y-m-d]]></item>
+				<item id="dateuformat"><![CDATA[0]]></item>
+				<item id="script"><![CDATA[threadnew]]></item>
+				<item id="param">
+					<item id="fids">
+						<item id="0"><![CDATA[0]]></item>
+					</item>
+					<item id="special">
+						<item id="0"><![CDATA[0]]></item>
+					</item>
+					<item id="viewmod"><![CDATA[0]]></item>
+					<item id="rewardstatus"><![CDATA[0]]></item>
+					<item id="picrequired"><![CDATA[1]]></item>
+					<item id="orderby"><![CDATA[lastpost]]></item>
+					<item id="postdateline"><![CDATA[0]]></item>
+					<item id="lastpost"><![CDATA[0]]></item>
+					<item id="titlelength"><![CDATA[40]]></item>
+					<item id="summarylength"><![CDATA[80]]></item>
+					<item id="startrow"><![CDATA[0]]></item>
+					<item id="items"><![CDATA[10]]></item>
+				</item>
+				<item id="shownum"><![CDATA[10]]></item>
+				<item id="cachetime"><![CDATA[3600]]></item>
+				<item id="cachetimerange"><![CDATA[]]></item>
+				<item id="punctualupdate"><![CDATA[0]]></item>
+				<item id="hidedisplay"><![CDATA[0]]></item>
+				<item id="dateline"><![CDATA[1416723624]]></item>
+				<item id="notinherited"><![CDATA[0]]></item>
+				<item id="isblank"><![CDATA[0]]></item>
+			</item>
+			<item id="60">
+				<item id="bid"><![CDATA[60]]></item>
+				<item id="blockclass"><![CDATA[forum_forum]]></item>
+				<item id="blocktype"><![CDATA[0]]></item>
+				<item id="name"><![CDATA[portal_03]]></item>
+				<item id="title"><![CDATA[]]></item>
+				<item id="classname"><![CDATA[cl_block_bm]]></item>
+				<item id="summary"><![CDATA[]]></item>
+				<item id="uid"><![CDATA[1]]></item>
+				<item id="username"><![CDATA[admin]]></item>
+				<item id="styleid"><![CDATA[0]]></item>
+				<item id="blockstyle">
+					<item id="name"><![CDATA[]]></item>
+					<item id="blockclass"><![CDATA[forum_forum]]></item>
+					<item id="makethumb"><![CDATA[0]]></item>
+					<item id="getpic"><![CDATA[0]]></item>
+					<item id="getsummary"><![CDATA[0]]></item>
+					<item id="settarget"><![CDATA[1]]></item>
+					<item id="moreurl"><![CDATA[0]]></item>
+					<item id="fields">
+						<item id="0"><![CDATA[currentorder]]></item>
+						<item id="1"><![CDATA[url]]></item>
+						<item id="2"><![CDATA[title]]></item>
+					</item>
+					<item id="template">
+						<item id="raw"><![CDATA[<ul id="qing_forum">
+[loop]
+<li><img src="template/it9527_baidu/img/icon_{currentorder}.png"><a href=" {url}"{target}>{title}</a></li>
+[/loop]
+</ul>]]></item>
+						<item id="footer"><![CDATA[]]></item>
+						<item id="header"><![CDATA[]]></item>
+						<item id="indexplus">
+						</item>
+						<item id="index">
+						</item>
+						<item id="orderplus">
+						</item>
+						<item id="order">
+						</item>
+						<item id="loopplus">
+						</item>
+						<item id="loop"><![CDATA[<li><img src="template/it9527_baidu/img/icon_{currentorder}.png"><a href=" {url}"{target}>{title}</a></li>]]></item>
+					</item>
+					<item id="hash"><![CDATA[4c0a53c5]]></item>
+				</item>
+				<item id="picwidth"><![CDATA[0]]></item>
+				<item id="picheight"><![CDATA[0]]></item>
+				<item id="target"><![CDATA[blank]]></item>
+				<item id="dateformat"><![CDATA[Y-m-d]]></item>
+				<item id="dateuformat"><![CDATA[0]]></item>
+				<item id="script"><![CDATA[forum]]></item>
+				<item id="param">
+					<item id="fids"><![CDATA[]]></item>
+					<item id="fups">
+						<item id="0"><![CDATA[0]]></item>
+					</item>
+					<item id="titlelength"><![CDATA[40]]></item>
+					<item id="summarylength"><![CDATA[80]]></item>
+					<item id="orderby"><![CDATA[displayorder]]></item>
+					<item id="items"><![CDATA[10]]></item>
+				</item>
+				<item id="shownum"><![CDATA[10]]></item>
+				<item id="cachetime"><![CDATA[3600]]></item>
+				<item id="cachetimerange"><![CDATA[]]></item>
+				<item id="punctualupdate"><![CDATA[0]]></item>
+				<item id="hidedisplay"><![CDATA[0]]></item>
+				<item id="dateline"><![CDATA[1416723637]]></item>
+				<item id="notinherited"><![CDATA[0]]></item>
+				<item id="isblank"><![CDATA[0]]></item>
+			</item>
+			<item id="61">
+				<item id="bid"><![CDATA[61]]></item>
+				<item id="blockclass"><![CDATA[html_html]]></item>
+				<item id="blocktype"><![CDATA[0]]></item>
+				<item id="name"><![CDATA[portal_04]]></item>
+				<item id="title"><![CDATA[]]></item>
+				<item id="classname"><![CDATA[cl_block_bm]]></item>
+				<item id="summary"><![CDATA[<ul id="qing_title">
+<li><a href="" target="_blank"><img src="/template/it9527_baidu/img/demo.jpg" width="230"></a></li>
+<li><a href="" target="_blank"><img src="/template/it9527_baidu/img/mrht.jpg" height="76" width="230"></a></li>
+<li><a href="" target="_blank"><img src="/template/it9527_baidu/img/cpzk.jpg" height="76" width="230"></a></li>
+<li><a href="" target="_blank"><img src="/template/it9527_baidu/img/web.jpg" height="76" width="230"></a></li>
+</ul>]]></item>
+				<item id="uid"><![CDATA[1]]></item>
+				<item id="username"><![CDATA[admin]]></item>
+				<item id="styleid"><![CDATA[0]]></item>
+				<item id="blockstyle"><![CDATA[]]></item>
+				<item id="picwidth"><![CDATA[0]]></item>
+				<item id="picheight"><![CDATA[0]]></item>
+				<item id="target"><![CDATA[blank]]></item>
+				<item id="dateformat"><![CDATA[Y-m-d]]></item>
+				<item id="dateuformat"><![CDATA[0]]></item>
+				<item id="script"><![CDATA[blank]]></item>
+				<item id="param">
+					<item id="content"><![CDATA[<ul id=\"qing_title\">
+<li><a href=\"\" target=\"_blank\"><img src=\"/template/it9527_baidu/img/demo.jpg\" width=\"230\"></a></li>
+<li><a href=\"\" target=\"_blank\"><img src=\"/template/it9527_baidu/img/mrht.jpg\" height=\"76\" width=\"230\"></a></li>
+<li><a href=\"\" target=\"_blank\"><img src=\"/template/it9527_baidu/img/cpzk.jpg\" height=\"76\" width=\"230\"></a></li>
+<li><a href=\"\" target=\"_blank\"><img src=\"/template/it9527_baidu/img/web.jpg\" height=\"76\" width=\"230\"></a></li>
+</ul>]]></item>
+					<item id="items"><![CDATA[10]]></item>
+				</item>
+				<item id="shownum"><![CDATA[10]]></item>
+				<item id="cachetime"><![CDATA[3600]]></item>
+				<item id="cachetimerange"><![CDATA[]]></item>
+				<item id="punctualupdate"><![CDATA[0]]></item>
+				<item id="hidedisplay"><![CDATA[0]]></item>
+				<item id="dateline"><![CDATA[1416724322]]></item>
+				<item id="notinherited"><![CDATA[0]]></item>
+				<item id="isblank"><![CDATA[0]]></item>
+			</item>
+			<item id="62">
+				<item id="bid"><![CDATA[62]]></item>
+				<item id="blockclass"><![CDATA[html_html]]></item>
+				<item id="blocktype"><![CDATA[0]]></item>
+				<item id="name"><![CDATA[portal_05]]></item>
+				<item id="title"><![CDATA[<div class="blocktitle title"><span style="float:;margin-left:px;font-size:;color: !important;" class="titletext">¼âµ¶°æ</span></div>]]></item>
+				<item id="classname"><![CDATA[cl_block_bm]]></item>
+				<item id="summary"><![CDATA[<div class="tab_content">
+  <div class="tab_soft">
+    <div class="tbs_name">°Ù¶Èä¯ÀÀÆ÷</div>
+    <div class="tbs_version">°æ±¾:7.0.500.354</div>
+    <div class="tbs_size">¸üÐÂÈÕÆÚ:11ÔÂ20ÈÕ</div>
+  </div>
+  <div class="tab_img"><img src="/template/it9527_baidu/img/bb2.png"></div>
+</div>
+<div class="tab_dl"><a href="">Á¢¼´ÏÂÔØ</a></div>]]></item>
+				<item id="uid"><![CDATA[1]]></item>
+				<item id="username"><![CDATA[admin]]></item>
+				<item id="styleid"><![CDATA[0]]></item>
+				<item id="blockstyle"><![CDATA[]]></item>
+				<item id="picwidth"><![CDATA[0]]></item>
+				<item id="picheight"><![CDATA[0]]></item>
+				<item id="target"><![CDATA[blank]]></item>
+				<item id="dateformat"><![CDATA[Y-m-d]]></item>
+				<item id="dateuformat"><![CDATA[0]]></item>
+				<item id="script"><![CDATA[blank]]></item>
+				<item id="param">
+					<item id="content"><![CDATA[<div class=\"tab_content\">
+  <div class=\"tab_soft\">
+    <div class=\"tbs_name\">°Ù¶Èä¯ÀÀÆ÷</div>
+    <div class=\"tbs_version\">°æ±¾:7.0.500.354</div>
+    <div class=\"tbs_size\">¸üÐÂÈÕÆÚ:11ÔÂ20ÈÕ</div>
+  </div>
+  <div class=\"tab_img\"><img src=\"/template/it9527_baidu/img/bb2.png\"></div>
+</div>
+<div class=\"tab_dl\"><a href=\"\">Á¢¼´ÏÂÔØ</a></div>]]></item>
+					<item id="items"><![CDATA[10]]></item>
+				</item>
+				<item id="shownum"><![CDATA[10]]></item>
+				<item id="cachetime"><![CDATA[0]]></item>
+				<item id="cachetimerange"><![CDATA[0,0]]></item>
+				<item id="punctualupdate"><![CDATA[0]]></item>
+				<item id="hidedisplay"><![CDATA[0]]></item>
+				<item id="dateline"><![CDATA[1416667694]]></item>
+				<item id="notinherited"><![CDATA[0]]></item>
+				<item id="isblank"><![CDATA[0]]></item>
+			</item>
+			<item id="63">
+				<item id="bid"><![CDATA[63]]></item>
+				<item id="blockclass"><![CDATA[html_html]]></item>
+				<item id="blocktype"><![CDATA[0]]></item>
+				<item id="name"><![CDATA[portal_06]]></item>
+				<item id="title"><![CDATA[<div class="blocktitle title"><span style="float:;margin-left:px;font-size:;color: !important;" class="titletext">ÂÛÌ³°æ</span></div>]]></item>
+				<item id="classname"><![CDATA[cl_block_bm]]></item>
+				<item id="summary"><![CDATA[<div class="tab_content">
+    <div class="tab_soft">
+      <div class="tbs_name">°Ù¶Èä¯ÀÀÆ÷</div>
+      <div class="tbs_version">°æ±¾:7.0.400.326</div>
+      <div class="tbs_size">¸üÐÂÈÕÆÚ:11ÔÂ14ÈÕ</div>
+    </div>
+    <div class="tab_img"><img src="/template/it9527_baidu/img/bb3.png"></div>
+  </div>
+  <div class="tab_dl"><a href="">Á¢¼´ÏÂÔØ</a></div>]]></item>
+				<item id="uid"><![CDATA[1]]></item>
+				<item id="username"><![CDATA[admin]]></item>
+				<item id="styleid"><![CDATA[0]]></item>
+				<item id="blockstyle"><![CDATA[]]></item>
+				<item id="picwidth"><![CDATA[0]]></item>
+				<item id="picheight"><![CDATA[0]]></item>
+				<item id="target"><![CDATA[blank]]></item>
+				<item id="dateformat"><![CDATA[Y-m-d]]></item>
+				<item id="dateuformat"><![CDATA[0]]></item>
+				<item id="script"><![CDATA[blank]]></item>
+				<item id="param">
+					<item id="content"><![CDATA[  <div class=\"tab_content\">
+    <div class=\"tab_soft\">
+      <div class=\"tbs_name\">°Ù¶Èä¯ÀÀÆ÷</div>
+      <div class=\"tbs_version\">°æ±¾:7.0.400.326</div>
+      <div class=\"tbs_size\">¸üÐÂÈÕÆÚ:11ÔÂ14ÈÕ</div>
+    </div>
+    <div class=\"tab_img\"><img src=\"/template/it9527_baidu/img/bb3.png\"></div>
+  </div>
+  <div class=\"tab_dl\"><a href=\"\">Á¢¼´ÏÂÔØ</a></div>]]></item>
+					<item id="items"><![CDATA[10]]></item>
+				</item>
+				<item id="shownum"><![CDATA[10]]></item>
+				<item id="cachetime"><![CDATA[3600]]></item>
+				<item id="cachetimerange"><![CDATA[]]></item>
+				<item id="punctualupdate"><![CDATA[0]]></item>
+				<item id="hidedisplay"><![CDATA[0]]></item>
+				<item id="dateline"><![CDATA[1416724469]]></item>
+				<item id="notinherited"><![CDATA[0]]></item>
+				<item id="isblank"><![CDATA[0]]></item>
+			</item>
+			<item id="64">
+				<item id="bid"><![CDATA[64]]></item>
+				<item id="blockclass"><![CDATA[html_html]]></item>
+				<item id="blocktype"><![CDATA[0]]></item>
+				<item id="name"><![CDATA[portal_07]]></item>
+				<item id="title"><![CDATA[<div class="blocktitle title"><span style="float:;margin-left:px;font-size:;color: !important;" class="titletext">¹ÙÍø°æ</span></div>]]></item>
+				<item id="classname"><![CDATA[]]></item>
+				<item id="summary"><![CDATA[<div class="tab_content">
+  <div class="tab_soft">
+    <div class="tbs_name">°Ù¶Èä¯ÀÀÆ÷</div>
+    <div class="tbs_version">°æ±¾:7.0.400.343</div>
+    <div class="tbs_size">¸üÐÂÈÕÆÚ:11ÔÂ21ÈÕ</div>
+  </div>
+  <div class="tab_img"><img src="/template/it9527_baidu/img/bb1.png"></div>
+</div>
+<div class="tab_dl"><a href="">Á¢¼´ÏÂÔØ</a></div>]]></item>
+				<item id="uid"><![CDATA[1]]></item>
+				<item id="username"><![CDATA[admin]]></item>
+				<item id="styleid"><![CDATA[0]]></item>
+				<item id="blockstyle"><![CDATA[]]></item>
+				<item id="picwidth"><![CDATA[0]]></item>
+				<item id="picheight"><![CDATA[0]]></item>
+				<item id="target"><![CDATA[blank]]></item>
+				<item id="dateformat"><![CDATA[Y-m-d]]></item>
+				<item id="dateuformat"><![CDATA[0]]></item>
+				<item id="script"><![CDATA[blank]]></item>
+				<item id="param">
+					<item id="content"><![CDATA[<div class=\"tab_content\">
+  <div class=\"tab_soft\">
+    <div class=\"tbs_name\">°Ù¶Èä¯ÀÀÆ÷</div>
+    <div class=\"tbs_version\">°æ±¾:7.0.400.343</div>
+    <div class=\"tbs_size\">¸üÐÂÈÕÆÚ:11ÔÂ21ÈÕ</div>
+  </div>
+  <div class=\"tab_img\"><img src=\"/template/it9527_baidu/img/bb1.png\"></div>
+</div>
+<div class=\"tab_dl\"><a href=\"\">Á¢¼´ÏÂÔØ</a></div>]]></item>
+					<item id="items"><![CDATA[10]]></item>
+				</item>
+				<item id="shownum"><![CDATA[10]]></item>
+				<item id="cachetime"><![CDATA[0]]></item>
+				<item id="cachetimerange"><![CDATA[0,0]]></item>
+				<item id="punctualupdate"><![CDATA[0]]></item>
+				<item id="hidedisplay"><![CDATA[0]]></item>
+				<item id="dateline"><![CDATA[1416668082]]></item>
+				<item id="notinherited"><![CDATA[0]]></item>
+				<item id="isblank"><![CDATA[0]]></item>
+			</item>
+			<item id="65">
+				<item id="bid"><![CDATA[65]]></item>
+				<item id="blockclass"><![CDATA[forum_thread]]></item>
+				<item id="blocktype"><![CDATA[0]]></item>
+				<item id="name"><![CDATA[portal_08]]></item>
+				<item id="title"><![CDATA[]]></item>
+				<item id="classname"><![CDATA[cl_block_bm]]></item>
+				<item id="summary"><![CDATA[]]></item>
+				<item id="uid"><![CDATA[1]]></item>
+				<item id="username"><![CDATA[admin]]></item>
+				<item id="styleid"><![CDATA[0]]></item>
+				<item id="blockstyle">
+					<item id="name"><![CDATA[]]></item>
+					<item id="blockclass"><![CDATA[forum_thread]]></item>
+					<item id="makethumb"><![CDATA[0]]></item>
+					<item id="getpic"><![CDATA[0]]></item>
+					<item id="getsummary"><![CDATA[0]]></item>
+					<item id="settarget"><![CDATA[1]]></item>
+					<item id="moreurl"><![CDATA[0]]></item>
+					<item id="fields">
+						<item id="0"><![CDATA[url]]></item>
+						<item id="1"><![CDATA[title]]></item>
+					</item>
+					<item id="template">
+						<item id="raw"><![CDATA[<ul>
+	[loop]
+  <li><a href="{url}"{target} title="{title}">{title}</a></li>
+  [/loop]
+</ul>]]></item>
+						<item id="footer"><![CDATA[]]></item>
+						<item id="header"><![CDATA[]]></item>
+						<item id="indexplus">
+						</item>
+						<item id="index">
+						</item>
+						<item id="orderplus">
+						</item>
+						<item id="order">
+						</item>
+						<item id="loopplus">
+						</item>
+						<item id="loop"><![CDATA[<li><a href="{url}"{target} title="{title}">{title}</a></li>]]></item>
+					</item>
+					<item id="hash"><![CDATA[8f1f8c08]]></item>
+				</item>
+				<item id="picwidth"><![CDATA[0]]></item>
+				<item id="picheight"><![CDATA[0]]></item>
+				<item id="target"><![CDATA[blank]]></item>
+				<item id="dateformat"><![CDATA[Y-m-d]]></item>
+				<item id="dateuformat"><![CDATA[0]]></item>
+				<item id="script"><![CDATA[threadnew]]></item>
+				<item id="param">
+					<item id="fids">
+						<item id="0"><![CDATA[0]]></item>
+					</item>
+					<item id="special">
+						<item id="0"><![CDATA[0]]></item>
+					</item>
+					<item id="viewmod"><![CDATA[0]]></item>
+					<item id="rewardstatus"><![CDATA[0]]></item>
+					<item id="picrequired"><![CDATA[0]]></item>
+					<item id="orderby"><![CDATA[lastpost]]></item>
+					<item id="postdateline"><![CDATA[0]]></item>
+					<item id="lastpost"><![CDATA[0]]></item>
+					<item id="titlelength"><![CDATA[30]]></item>
+					<item id="summarylength"><![CDATA[80]]></item>
+					<item id="startrow"><![CDATA[0]]></item>
+					<item id="items"><![CDATA[5]]></item>
+				</item>
+				<item id="shownum"><![CDATA[5]]></item>
+				<item id="cachetime"><![CDATA[3600]]></item>
+				<item id="cachetimerange"><![CDATA[]]></item>
+				<item id="punctualupdate"><![CDATA[0]]></item>
+				<item id="hidedisplay"><![CDATA[0]]></item>
+				<item id="dateline"><![CDATA[1416724641]]></item>
+				<item id="notinherited"><![CDATA[0]]></item>
+				<item id="isblank"><![CDATA[0]]></item>
+			</item>
+		</item>
+		<item id="style">
+		</item>
+	</item>
+</root>
